@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Get Started](README.md)
+* [Get Started](the-basics/spaces.md)
 
 ## The Basics
 
