@@ -4,7 +4,8 @@
 
 ## The Basics
 
-* [Spaces](the-basics/spaces.md)
+* [Spaces](the-basics/spaces/README.md)
+  * [Testing nested spaces](the-basics/spaces/testing-nested-spaces.md)
 * [Collections](the-basics/collections.md)
 * [The GitBook editor](the-basics/the-gitbook-editor.md)
 * [Live edit and locked edits](the-basics/live-edit-and-locked-edits.md)
