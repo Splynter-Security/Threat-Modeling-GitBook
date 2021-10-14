@@ -4,7 +4,7 @@
 
 ## Introduction
 
-* [WHY Threat Modelling?](/gitbook/introduction/why.md)
+* [WHY Threat Modelling?](introduction/why-threat-modelling.md)
 
 ## Notations
 
