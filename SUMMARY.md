@@ -1,24 +1,12 @@
 # Table of contents
 
-* [Get Started](the-basics/spaces.md)
+* [Home](README.md)
 
-## The Basics
+## Introduction
 
-* [Spaces](the-basics/spaces/README.md)
-  * [Testing nested spaces](the-basics/spaces/testing-nested-spaces.md)
-* [Collections](the-basics/collections.md)
-* [The GitBook editor](the-basics/the-gitbook-editor.md)
-* [Live edit and locked edits](the-basics/live-edit-and-locked-edits.md)
-* [Change requests](the-basics/change-requests.md)
+* [WHY Threat Modelling?](introduction/why.md)
 
-## Publishing
+## Notations
 
-* [Publishing your content](publishing/publishing-your-content.md)
-
-## Tips and tricks
-
-* [Speed up with quick find](tips-and-tricks/speed-up-with-quick-find.md)
-
-## Next steps
-
-* [What next?](next-steps/what-next.md)
+* [Archimate](notations/archimate.md)
+    * [Archimate Basics](notations/archimate/basics)
