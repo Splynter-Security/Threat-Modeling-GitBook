@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Home](README.md)
+* [Introduction](introduction.md)
 
-## Introduction
+## Principles
 
-* [WHY Threat Modelling?](introduction/why.md)
+* [WHY Threat Modelling?](principles/why.md)
 
 ## Notations
 
