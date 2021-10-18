@@ -8,18 +8,27 @@ This overlay has become part of ...
 The white paper updated for Archimate 3.1 can be found here. This chapter will outline the theoretical foundation, main building blocks as well as practical examples of the overlay.
 
 In what follows we will introduce each individual risk management concept and how it is mapped to the archimate standard.
+Note: this entire sub-chapter includes definitions and concepts directly from the risk and security overlay whitepaper.
+However, this white paper was written about risk management at a higher level, not specifically cyber security threat modelling.
+We will therefore focus more on the relevant components.
 
 ## Mapping Risk and Security concepts to Archimate
 
 ### Risk
-Risk, as defined by .
-It can be represented as
+**Risk** can be defined as the probably frequency and probable magnitude of future loss.
+Risk also includes the potential of a potentially undesirable outcome (loss) resulting from a given action, activity, and/or inaction foreseen and unforeseen. Mapping the concept of risk in archimate can be done with the assessment concept. In a threat model however, risk itself is not commonly modelled. What is far more useful is to model individual threats, control measures, etc.
+
+**Risk metrics** are metrics used to quantify risk. These should be included as attributes to the risk concept.
 
 ### Loss Event
+A **loss event** is
+
 
 ### Vulnerability
+A **vulnerability** within cyber security contexts can be defined as a weakness that allows an attacker to threaten the value of an asset. An assessment can be used to model these, however one does not typically want to model vulnerabilities themselves. In an architectural model, known vulnerabilities should be scarce. The focus should lie on threats.
 
 ### Threat
+
 
 ## Concept Mapping Table
 This table has been made with terminology as found in the security overlay.
