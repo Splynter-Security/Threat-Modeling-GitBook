@@ -14,7 +14,6 @@ In what follows we will introduce each individual risk management concept and ho
 ### Risk
 Risk, as defined by .
 It can be represented as
-<!-- Insert picture here--->
 
 ### Loss Event
 
