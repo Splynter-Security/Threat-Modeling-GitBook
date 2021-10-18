@@ -11,3 +11,5 @@
 * [Archimate](notations/archimate.md)
   * [Basics](notations/archimate/basics.md)
   * [Risk and Security Overlay](notations/archimate/risk-and-security-overlay.md)
+  * [Evaluation](notations/archimate/evaluation.md)
+  * [examples](notations/archimate/examples.md)
