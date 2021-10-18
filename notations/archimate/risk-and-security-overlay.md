@@ -1,3 +1,4 @@
+<!-- TODO: Remove the <br/> breakpoints within the table if gitbook does this modelling themselves-->
 # Risk and Security Overlay
 
 The Archimate standard explicitly defined itself to be extensible.
@@ -6,13 +7,29 @@ An example of such an overlay is specifically important for threat modeling: the
 This overlay has become part of ...
 The white paper updated for Archimate 3.1 can be found here. This chapter will outline the theoretical foundation, main building blocks as well as practical examples of the overlay.
 
+In what follows we will introduce each individual risk management concept and how it is mapped to the archimate standard.
+
+## Mapping Risk and Security concepts to Archimate
+
+### Risk
+Risk, as defined by .
+It can be represented as
+<!-- Insert picture here--->
+
+### Loss Event
+
+### Vulnerability
+
+### Threat
+
 ## Concept Mapping Table
 This table has been made with terminology as found in the security overlay.
 Refer to page for more specific terminology.
 
 | Concept | Summary | Mapping |
 | --- | --- | --- |
-| Risk | The potential of loss -- probable frequency and probable magnitude<br/> of future loss | |
+| Risk | The potential of loss -- probable frequency and probable magnitude<br/> of future loss |Assessment  |
+| Risk Metrics | | |
 | Loss Event | Circumstance that causes loss or damage to an asset | business event |
 | Threat | Possible danger that might exploit a vulnerability | driver |
 | Threat Agent | Anything capable of acting against an asset in a harmful manner | various active structure elements |
