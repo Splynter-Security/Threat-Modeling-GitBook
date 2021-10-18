@@ -29,7 +29,7 @@ Refer to page for more specific terminology.
 | Concept | Summary | Mapping |
 | --- | --- | --- |
 | Risk | The potential of loss -- probable frequency and probable magnitude<br/> of future loss |Assessment  |
-| Risk Metrics | | |
+| Risk Metrics | TODO | |
 | Loss Event | Circumstance that causes loss or damage to an asset | business event |
 | Threat | Possible danger that might exploit a vulnerability | driver |
 | Threat Agent | Anything capable of acting against an asset in a harmful manner | various active structure elements |
