@@ -9,4 +9,5 @@
 ## Notations
 
 * [Archimate](notations/archimate.md)
-  * [Archimate Basics](notations/archimate/archimate-basics.md)
+  * [Basics](notations/archimate/basics.md)
+  * [Risk and Security Overlay](notations/archimate/risk-and-security-overlay.md)

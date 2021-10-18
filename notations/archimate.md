@@ -1,0 +1,6 @@
+# Archimate
+
+Archimate is an architectural modeling language used ...
+It assists in representing ...
+In the context of Threat Modelling it can be classified as being at the architectural level.
+In this chapter the archimate language will be explained
