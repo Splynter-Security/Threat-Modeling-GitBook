@@ -13,5 +13,6 @@ In this chapter the archimate language will be explained
 
 In the following chapters the basics of archimate will be explained
 
+Link with the evaluation if more interest.
 
 [1]: https://www.opengroup.org/archimate-forum/archimate-overview

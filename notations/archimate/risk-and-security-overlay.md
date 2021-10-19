@@ -26,7 +26,7 @@ A **loss event** is any circumstance that causes a loss or damage to an asset. l
 
 ***TODO: Add picture of the various kinds of risks***
 
-![test](DefaultView.jpg)
+![test](images/DefaultView.jpg)
 
 ### Threat
 **Threats** are possible dangers that could exploit a vulnerability. It can refer to a threatening circumstance, an entity capable of causing harm, or the actual event that may cause harm. The general notion of a threat can be modelled as an ArchiMate *driver*, however since threat is an ambiguous term, more specific notions of threat are used to more precisely model threats. 
@@ -61,6 +61,8 @@ A **risk management domain** is a group
 ### Risk Control, Treatment, Mitigation
 **Risk Control**, **Treatment**, **Mitigation** are the deployment of a set of security services to protect against a security threat. Reducing a threat, a vulnerability or an attack by eliminating or preventing it, by minimizing the harm it can cause, or by discovering and reporting it so other action can be taken. Depending on the kind of action, nearly *any core element or combination* thereof can be used to model it. A grouping can also be used to form a control of several different sub-components.
 
+***TODO: Add picture of examples + maybe a grouping***
+
 ### Control Requirement
 
 A formalized need to be fulfilled by means of a control in order to face an identified threat.
@@ -68,23 +70,3 @@ A formalized need to be fulfilled by means of a control in order to face an iden
 **TODO: add requirements more in general?**
 
 ### Policy
-
-## Concept Mapping Table
-
-| Concept | Summary | Mapping |
-| --- | --- | --- |
-| Risk | The potential of loss -- probable frequency and probable magnitude of future loss | Assessment  |
-| Risk Metrics | Metrics used to quantify risk | Attributes |
-| Loss Event | Circumstance that causes loss or damage to an asset | Business Event |
-| Threat | Possible danger that might exploit a vulnerability | Driver |
-| Threat Agent | Anything capable of acting against an asset in a harmful manner | Active Structures (Business Actor) |
-| Threat Event | Event with the potential to adversely impact an asset | Business Event |
-| Asset at Risk | Anything that is capable of being owned or controlled to produce value | Core Elements |
-| Vulnerability | Weakness that allows an attacker to threaten the value of an asset | Assessment |
-| Domain | A set related entities that share characteristics and define a specific field | |
-| Security Domain | Group of assets with the same security level under the same security policy's jurisdiction | |
-| Risk Management Domain | A domain with shared risk management or security characteristics| |
-| Mitigation Domain | A group of assets and actions that together mitigate risk in one or more risk management domains| |
-| Risk Control, Treatment, Mitigation | Deployment of a set of services to protect against a threat | Core Elements |
-| Control Requirement | Formal need that must be fulfilled by a control to face a known threat| |
-| Policy | A set of rules which governs the behavior of a system | |

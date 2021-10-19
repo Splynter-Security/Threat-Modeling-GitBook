@@ -11,5 +11,6 @@
 * [Archimate](notations/archimate.md)
   * [Basics](notations/archimate/basics.md)
   * [Risk and Security Overlay](notations/archimate/risk-and-security-overlay.md)
-  * [Evaluation](notations/archimate/evaluation.md)
+  * [Mapping Table](notations/archimate/mapping-table.md)
+  * [Meta-model](notations/archimate/meta-model.md)
   * [Examples](notations/archimate/examples.md)
