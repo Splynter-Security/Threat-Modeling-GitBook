@@ -20,12 +20,11 @@ Anything (tangible or intangible) capable of being owned or controlled to produc
 
 ### Risk
 **Risk** can be defined as the probably frequency and probable magnitude of future loss.
-Risk also includes the potential of a potentially undesirable outcome (loss) resulting from a given action, activity, and/or inaction foreseen and unforeseen. Mapping the concept of risk in ArchiMate can be done with the assessment concept. In a threat model however, risk itself is not commonly modelled. What is far more useful is to model individual threats, control measures, etc.
+Risk also includes the potential of a potentially undesirable outcome (loss) resulting from a given action, activity, and/or inaction foreseen and unforeseen. Mapping the concept of risk in ArchiMate can be done with the *assessment* concept. In a threat model however, risk itself is not commonly modelled. What is far more useful is to model individual threats, control measures, etc.
 
-**Risk metrics** are metrics used to quantify risk. These should be included as attributes to the risk concept.
+**Risk metrics** are metrics used to quantify risk. These should be included as *attributes* to the risk concept.
 
-ASn **asset at risk** 
-A **loss event** is any circumstance that causes a loss or damage to an asset.
+A **loss event** is any circumstance that causes a loss or damage to an asset. loss events can be mapped to the *business event* concept.
 
 ### Threat
 **Threats** are possible dangers that could exploit a vulnerability. It can refer to a threatening circumstance, an entity capable of causing harm, or the actual event that may cause harm. The general notion of a threat can be modelled as an ArchiMate driver, however since threat is an ambiguous term, more specific notions of threat are also used to more precisely model threats.
@@ -52,16 +51,22 @@ A **risk management domain** is a group
 
 ***Note:*** In practice defining a security domain is tricky. Recently trends such as zero-trust and defense-in-depth have only made it even more important to be very clear on your own... In general applying domains at the abstract and defining yourself.... Because of this we included a short chapter which explores how this can be done in practice.
 
+### Risk Control, Treatment, Mitigation
+
+### Control Requirement 
+**TODO: add requirements more in general?**
+
+### Policy
 
 ## Concept Mapping Table
 
 | Concept | Summary | Mapping |
 | --- | --- | --- |
 | Risk | The potential of loss -- probable frequency and probable magnitude of future loss | Assessment  |
-| Risk Metrics | TODO | |
-| Loss Event | Circumstance that causes loss or damage to an asset | business event |
-| Threat | Possible danger that might exploit a vulnerability | driver |
-| Threat Agent | Anything capable of acting against an asset in a harmful manner | various active structure elements |
+| Risk Metrics | TODO | Attributes |
+| Loss Event | Circumstance that causes loss or damage to an asset | Business Event |
+| Threat | Possible danger that might exploit a vulnerability | Driver |
+| Threat Agent | Anything capable of acting against an asset in a harmful manner | various Active Structures |
 | Threat Event | Event with the potential to adversely impact an asset | |
 | Vulnerability | Weakness that allows an attacker to threaten the value of an asset | |
 | Domain | A set related entities that share characteristics and define a specific field | |
