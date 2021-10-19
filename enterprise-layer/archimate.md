@@ -6,6 +6,7 @@ This cross-layer understanding is fundamental to archimate and will be explored 
 
 
 Archimate is an architectural modeling language used ...
+It is simply a notation that.... promo archimate
 Made 
 It assists in representing ...
 In the context of Threat Modelling it can be classified as being at the architectural level.

@@ -9,24 +9,28 @@
 * [Layering](foundations/layering.md)
 * [Methodology](foundations/methodology.md)
 
-## Enterprise Layer
+## Identification
 
-* [Architectural Threat Identification](enterprise-layer/architectural-threat-identification.md)
-* [Archimate](enterprise-layer/archimate.md)
+## Logical Layer
+* [Model: Archimate](enterprise-layer/archimate.md)
   * [Basics](enterprise-layer/archimate/basics.md)
   * [Risk and Security Overlay](enterprise-layer/archimate/risk-and-security-overlay.md)
   * [Mapping Table](enterprise-layer/archimate/mapping-table.md)
   * [Meta-model](enterprise-layer/archimate/meta-model.md)
   * [Domains in-depth](enterprise-layer/archimate/domains-in-depth.md)
   * [Examples](enterprise-layer/archimate/examples.md)
+* [Identification](enterprise-layer/architectural-threat-identification.md)
+   * [Categories](enterprise-layer/identification/categories.md)
+   * [Catalogs](enterprise-layer/identification/catalogs.md)
+* [Controls](enterprise-layer/identification/controls.md)
 
-## System Layer
 
+## Physical Layer
 * [STRIDE](system-layer/stride.md)
 * [DFD](system-layer/dfd.md)
 
-## Conclusion
 
+## Conclusion
 * [Synthesis](conclusion/synthesis.md)
 * [Practical Implementation](conclusion/practical-implementation.md)
 * [Extensions](conclusion/extensions.md)
