@@ -12,13 +12,13 @@
 ## Enterprise Layer
 
 * [Architectural Threat Identification](enterprise-layer/architectural-threat-identification.md)
-* [Archimate](notations/archimate.md)
-  * [Basics](notations/archimate/basics.md)
-  * [Risk and Security Overlay](notations/archimate/risk-and-security-overlay.md)
-  * [Mapping Table](notations/archimate/mapping-table.md)
-  * [Meta-model](notations/archimate/meta-model.md)
-  * [Domains in-depth](notations/archimate/domains-in-depth.md)
-  * [Examples](notations/archimate/examples.md)
+* [Archimate](enterprise-layer/archimate.md)
+  * [Basics](enterprise-layer/archimate/basics.md)
+  * [Risk and Security Overlay](enterprise-layer/archimate/risk-and-security-overlay.md)
+  * [Mapping Table](enterprise-layer/archimate/mapping-table.md)
+  * [Meta-model](enterprise-layer/archimate/meta-model.md)
+  * [Domains in-depth](enterprise-layer/archimate/domains-in-depth.md)
+  * [Examples](enterprise-layer/archimate/examples.md)
 
 ## System Layer
 
