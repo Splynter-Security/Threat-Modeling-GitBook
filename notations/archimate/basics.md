@@ -18,12 +18,6 @@ There is however also a fourth layer which is usually used less than the other 3
 The motivation layer, also sometimes referred to as the strategic layer, enables analysts to model elements related to goals, outcomes, principles and requirements.
 This will be especially relevant for risk management since this often is focused on core concepts surrounding requirements and security objectives.
 
-### Assessment
+**insert an image of the main archimate motivation elements**
 
-### Goal
-
-### Requirement
-
-## Basic Notation
-
-### Actor
+## Overlays and Extensions
