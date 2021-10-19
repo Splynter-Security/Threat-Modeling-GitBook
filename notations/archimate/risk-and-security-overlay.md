@@ -15,9 +15,6 @@ We will therefore focus more on the relevant components.
 The definitions and mapping are near identical copies of those found in the whitepaper.
 Sometimes slightly adjusted or amended to focus more on threat modelling instead of risk management.
 
-### Asset at risk
-Anything (tangible or intangible) capable of being owned or controlled to produce value can be referred to as an **asset at risk**. In cyber security contexts, this can an data, device, or other component of the environment that supports information-related activities. Mapping assets can be done with most or a combination of core elements in the ArchiMate specification.
-
 ### Risk
 **Risk** can be defined as the probably frequency and probable magnitude of future loss.
 Risk also includes the potential of a potentially undesirable outcome (loss) resulting from a given action, activity, and/or inaction foreseen and unforeseen. Mapping the concept of risk in ArchiMate can be done with the *assessment* concept. In a threat model however, risk itself is not commonly modelled. What is far more useful is to model individual threats, control measures, etc.
@@ -26,8 +23,12 @@ Risk also includes the potential of a potentially undesirable outcome (loss) res
 
 A **loss event** is any circumstance that causes a loss or damage to an asset. loss events can be mapped to the *business event* concept.
 
+***TODO: Add picture of the various kinds of risks***
+
+![test](DefaultView.jpg)
+
 ### Threat
-**Threats** are possible dangers that could exploit a vulnerability. It can refer to a threatening circumstance, an entity capable of causing harm, or the actual event that may cause harm. The general notion of a threat can be modelled as an ArchiMate driver, however since threat is an ambiguous term, more specific notions of threat are also used to more precisely model threats.
+**Threats** are possible dangers that could exploit a vulnerability. It can refer to a threatening circumstance, an entity capable of causing harm, or the actual event that may cause harm. The general notion of a threat can be modelled as an ArchiMate *driver*, however since threat is an ambiguous term, more specific notions of threat are used to more precisely model threats. 
 
 The term **Threat Agent** refers to the above entity capable of causing harm. Note, this can be both intentional; a hacker with malicious intent, or accidental; an employee accidentally types the wrong bash command. There exist various active structure ArchiMate elements that could be used to model threat agents. In practice, business actor elements are commonly used.
 
@@ -37,8 +38,14 @@ In contrast to threat agent, a **Threat Event** refers to the actual event that 
 
 ***TODO: Add picture of the various kinds of threats***
 
+### Asset at risk
+Anything (tangible or intangible) capable of being owned or controlled to produce value can be referred to as an **asset at risk**. In cyber security contexts, this can an data, device, or other component of the environment that supports information-related activities. Mapping assets can be done with most or a combination of core elements in the ArchiMate specification.
+
+
 ### Vulnerability
 A **vulnerability** within cyber security contexts can be defined as a weakness that allows an attacker to threaten the value of an asset. An assessment can be used to model these, however one does not typically want to model vulnerabilities themselves. In an architectural model, known vulnerabilities should be scarce. The focus should lie on threats.
+
+***TODO: Add picture of a vulnerability and asset at risk***
 
 ### Domain
 A **domain** is a set of related entities that share one or more characteristics and defines the semantic of a specific field. A couple of specific domains will be defined further down. Domains can be mapped to the ArchiMate grouping element.
