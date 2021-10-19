@@ -1,4 +1,3 @@
-<!-- TODO: Remove the <br/> breakpoints within the table if gitbook does this modelling themselves-->
 # Risk and Security Overlay
 
 The ArchiMate standard explicitly defined itself to be extensible.
@@ -58,11 +57,10 @@ Refer to page for more specific terminology.
 | Threat Event | Event with the potential to adversely impact an asset | |
 | Vulnerability | Weakness that allows an attacker to threaten the value of an asset | |
 | Domain | A set related entities that share characteristics and define a specific field | |
-| Security Domain | Group of assets with the same security level under the same <br/> security policy's jurisdiction | |
-| Risk Management <br/> Domain | A domain with shared risk management or security characteristics| |
-| Mitigation Domain | A group of assets and actions that together mitigate risk in <br/>one or more risk management domains| |
-| Risk Control, <br/> Treatment, Mitigation | Deployment of a set of services to protect against a threat | |
+| Security Domain | Group of assets with the same security level under the same security policy's jurisdiction | |
+| Risk Management Domain | A domain with shared risk management or security characteristics| |
+| Mitigation Domain | A group of assets and actions that together mitigate risk in one or more risk management domains| |
+| Risk Control, Treatment, Mitigation | Deployment of a set of services to protect against a threat | |
 | Control Requirement | Formal need that must be fulfilled by a control to face a known threat| |
 | Asset at Risk | Anything that is capable of being owned or controlled to produce value| |
 | Policy | A set of rules which governs the behavior of a system | |
-
