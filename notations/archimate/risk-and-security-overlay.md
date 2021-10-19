@@ -13,7 +13,10 @@ We will therefore focus more on the relevant components.
 
 ## Mapping Risk and Security concepts to ArchiMate
 The definitions and mapping are near identical copies of those found in the whitepaper.
-Sometimes slightly adjusted to focus more on threat modelling instead of risk management.
+Sometimes slightly adjusted or amended to focus more on threat modelling instead of risk management.
+
+### Asset at risk
+Anything (tangible or intangible) capable of being owned or controlled to produce value can be referred to as an **asset at risk**. In cyber security contexts, this can an data, device, or other component of the environment that supports information-related activities. Mapping assets can be done with most or a combination of core elements in the ArchiMate specification.
 
 ### Risk
 **Risk** can be defined as the probably frequency and probable magnitude of future loss.
@@ -21,8 +24,8 @@ Risk also includes the potential of a potentially undesirable outcome (loss) res
 
 **Risk metrics** are metrics used to quantify risk. These should be included as attributes to the risk concept.
 
-### Loss Event
-A **loss event** is 
+ASn **asset at risk** 
+A **loss event** is any circumstance that causes a loss or damage to an asset.
 
 ### Threat
 **Threats** are possible dangers that could exploit a vulnerability. It can refer to a threatening circumstance, an entity capable of causing harm, or the actual event that may cause harm. The general notion of a threat can be modelled as an ArchiMate driver, however since threat is an ambiguous term, more specific notions of threat are also used to more precisely model threats.
@@ -39,17 +42,22 @@ In contrast to threat agent, a **Threat Event** refers to the actual event that 
 A **vulnerability** within cyber security contexts can be defined as a weakness that allows an attacker to threaten the value of an asset. An assessment can be used to model these, however one does not typically want to model vulnerabilities themselves. In an architectural model, known vulnerabilities should be scarce. The focus should lie on threats.
 
 ### Domain
+A **domain** is a set of related entities that share one or more characteristics and defines the semantic of a specific field. A couple of specific domains will be defined further down. Domains can be mapped to the ArchiMate grouping element.
 
+A **security domain** groups assets with the same security level that fall under the jurisdiction of one security policy.
 
+A **risk management domain** is a group 
+
+**Mitigation domains** group together assets amd actions that together mitigate risk in one or more risk management domains. Risk and mitigation domains are concepts more closely associated with risk management than threat modelling.
+
+***Note:*** In practice defining a security domain is tricky. Recently trends such as zero-trust and defense-in-depth have only made it even more important to be very clear on your own... In general applying domains at the abstract and defining yourself.... Because of this we included a short chapter which explores how this can be done in practice.
 
 
 ## Concept Mapping Table
-This table has been made with terminology as found in the security overlay.
-Refer to page for more specific terminology.
 
 | Concept | Summary | Mapping |
 | --- | --- | --- |
-| Risk | The potential of loss -- probable frequency and probable magnitude<br/> of future loss |Assessment  |
+| Risk | The potential of loss -- probable frequency and probable magnitude of future loss | Assessment  |
 | Risk Metrics | TODO | |
 | Loss Event | Circumstance that causes loss or damage to an asset | business event |
 | Threat | Possible danger that might exploit a vulnerability | driver |
