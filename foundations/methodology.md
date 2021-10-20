@@ -14,6 +14,9 @@ Modeling -> Identification -> Controls
 ## Modeling
 First you want to make a diagram or model of your project.
 This should pay special attention to concepts such as threats.
+It seems that every new week a new modeling specialization is released, giving a wide variety of modeling languages to choose from.
+Of course, a wide variety of choice also means finding the right model for any given task becomes more difficult.
+When modeling in this context, it's important...
 
 ## Identification
 After having establish an initial architectural system mode, the phase of threat identification begins.

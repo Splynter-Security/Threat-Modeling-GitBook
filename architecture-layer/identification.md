@@ -30,6 +30,6 @@ A more practical approach to this brainstorming step is using existing threat ca
 There is current support for this with MITRE's CAPEC and CAWE.
 
 In case a more loose approach is desired, this more often the case if there is an explicit desire for more custom threat modeling, however.
-Ideally there'd be existing mnemonics to be used as is the common practice in system layer threat modeling where STRIDE, LINDUN, and DREAD are particularly common.
+Ideally there'd be existing mnemonics to be used as is the common practice in system layer threat modeling where STRIDE, LINDUNN, and DREAD are particularly common.
 An older technique of performing threat identification in the past, attack trees, however is quite transferable to the architectural layer.
 Setting the initial concept front and center and then adding basic categories (such as those found in CAWE "security techniques").
