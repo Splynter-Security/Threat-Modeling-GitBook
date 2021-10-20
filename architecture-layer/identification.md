@@ -33,12 +33,3 @@ In case a more loose approach is desired, this more often the case if there is a
 Ideally there'd be existing mnemonics to be used as is the common practice in system layer threat modeling where STRIDE, LINDUN, and DREAD are particularly common.
 An older technique of performing threat identification in the past, attack trees, however is quite transferable to the architectural layer.
 Setting the initial concept front and center and then adding basic categories (such as those found in CAWE "security techniques").
-
-
-A practical technique for generating a list of threats.
-Explain it with tactics and weaknesses. Weaknesses are vulnerabilities but not threats.
-Threats need to be acted upon however they can used to inform your thinking.
-https://cwe.mitre.org/data/definitions/1000.html
-Making such a list can look as follows:
-One often pitfall in building architectural catalogs is confusing threats with vulnerabilities.
-
