@@ -5,7 +5,7 @@ See threat modeling as a constant instead of
 
 In general, threat modeling can be modeled as constant a cycle of phase.
 This can be seen in Shostack and 
-The ideas behind this methodology is cross-layer, being both applicable at the architecutral as well as the system layer
+The ideas behind this methodology is cross-layer, being both applicable at the architectural as well as the system layer
 
 ```
 Modeling -> Identification -> Controls

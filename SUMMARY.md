@@ -20,7 +20,7 @@
   * [Meta-model](architecture-layer/archimate/meta-model.md)
   * [Domains in-depth](architecture-layer/archimate/domains-in-depth.md)
   * [Examples](architecture-layer/archimate/examples.md)
-* [Identification](architecture-layer/architectural-threat-identification.md)
+* [Identification](architecture-layer/identification.md)
    * [Categories](architecture-layer/identification/categories.md)
    * [Catalogs](architecture-layer/identification/catalogs.md)
 * [Technique: CAPEC](architecture-layer/capec.md)
