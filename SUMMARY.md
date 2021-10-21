@@ -12,15 +12,19 @@
 ## Architecture Layer
 
 * [Modeling](architecture-layer/modeling.md)
-* [Technique: Archimate](architecture-layer/archimate.md)
-  * [Basics](architecture-layer/archimate/basics.md)
-  * [Risk and Security Overlay](architecture-layer/archimate/risk-and-security-overlay.md)
-  * [Mapping Table](architecture-layer/archimate/mapping-table.md)
-  * [Meta-model](architecture-layer/archimate/meta-model.md)
-  * [Domains in-depth](architecture-layer/archimate/domains-in-depth.md)
-  * [Examples](architecture-layer/archimate/examples.md)
+* [Technique: Archimate](architecture-layer/technique-archimate.md)
+  * [Basics](architecture-layer/technique-archimate/basics.md)
+  * [Risk and Security Overlay](architecture-layer/technique-archimate/risk-and-security-overlay.md)
+  * [Mapping Table](architecture-layer/technique-archimate/mapping-table.md)
+  * [Meta-model](architecture-layer/technique-archimate/meta-model.md)
+  * [Domains in-depth](architecture-layer/technique-archimate/domains-in-depth.md)
+  * [Examples](architecture-layer/technique-archimate/examples.md)
 * [Identification](architecture-layer/identification.md)
+* [Technique: OSA](architecture-layer/technique-osa.md)
 * [Technique: CAPEC](architecture-layer/technique-capec.md)
+  * [Consulting MITRE](architecture-layer/technique-capec/consulting-mitre.md)
+  * [Synthesizing Threats](architecture-layer/technique-capec/synthesizing-threats.md)
+* [Technique: Attack Trees](architecture-layer/technique-attacker-trees.md)
 * [Controls](architecture-layer/controls.md)
 
 ## System Layer
