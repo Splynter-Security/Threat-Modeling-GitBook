@@ -1,16 +1,15 @@
 # Methodology
 "Threat Modeling" isn't just a one-and-done activity.
-It's more a discipline consisting of several different steps and techniques to get a holistic overview of threat to a system and controls to manage these threats.
+It's more a discipline consisting of several different steps and techniques to get a holistic overview of risk to a system and controls to manage these threats.
 Threat modelling should actually be seen as a constant cyclic refinement of understanding.
 
-While there isn't 1 set agreed upon methodology for threat modeling, most literature [[1]](#references)[[2]](#references) describe similar phases in the overall lifecycle of a threat model. 
+While there isn't one set agreed upon methodology for threat modeling, most literature [[1]](#references)[[2]](#references) describe similar phases in the overall lifecycle of a threat model. 
 Making this a bit more concrete results in the following approach:
 ```
 Context Modeling -> Threat Identification -> Managing Controls
 ```
 
-The ideas behind this methodology are cross-layer, being both applicable at the architectural as well as the system layer. In what follows in the current section the individual phases will be explained at a high level.
-The next chapters will explore the phases more practically.
+The ideas behind this methodology are cross-layer, being both applicable at the architectural as well as the system layer.
 
 ## Modeling
 The first step in threat modeling is to establish a context model of the system.
@@ -31,7 +30,7 @@ Threat identification is very much a brainstorming phase, threats are after all 
 Threat catalogs, mnemonics such as STRIDE or LINDDUN, or brainstorm schemas are commonly used to aid in keeping this phase structured and methodical.
 
 ## Controls
-
+Finally with the refined context model and an overview of threats in hand, it's possible to start identifying controls to manage these threats.
 
 ---
 ## References
