@@ -32,8 +32,8 @@ Threat catalogs, mnemonics such as STRIDE or LINDDUN, or brainstorm schemas are 
 ## Controls
 Finally with the refined context model and an overview of threats in hand, it's possible to start identifying controls to manage these threats.
 
----
-## References
+
+# References
 
 1: Threat Modeling - designing for security by Adam Shostack
 
