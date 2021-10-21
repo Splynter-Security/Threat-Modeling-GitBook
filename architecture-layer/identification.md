@@ -5,9 +5,13 @@ Input: Context threat models
 Output: Concrete threat lists/overviews
 Tools: Brainstorming techniques, generic threat catalogs/libraries
 ```
-Threat identification in the architectural layer enjoys a poorer historic research background as modeling.
-Mostly due to modeling's relative importance in the field of risk management.
-Putting threats front-and-center comes more out of the cyber security industry and the discipline of "red teaming" which tends to focus more on the systems layer.
+
+After having made a context model with a solid security dimension, it is time to start identifying actual concrete threats.
+This is known as threat identification.
+
+Unfortunately, threat identification in the architectural layer lacks the same rich historic research background as modeling.
+This is mostly due to modeling's relative importance in the field of risk management.
+Putting threats front-and-center came more out of the cyber security industry and the discipline of "red teaming" which tends to focus more on the systems layer.
 Luckily there is still extensive literature to fall back on especially from the field of software architecture as well as the widespread standardization and cataloging efforts in cyber security.
 
 Architectural threat identification is largely a brainstorming phase and similar techniques to systems layer threat identification can be applied. This section's following paragraphs will explore the concept of threats and provide and overview of brainstorming techniques -- these techniques will then be explored more in-depth in the next sections.
@@ -43,8 +47,7 @@ Earlier (in chapter methodology) several techniques were touched upon as aides..
 A more practical approach to this brainstorming step is using existing threat catalogs.
 There is current support for this with MITRE's CAPEC and CAWE.
 
-In case a more loose approach is desired, this more often the case if there is an explicit desire for more custom threat modeling, however.
-Ideally there'd be existing mnemonics to be used as is the common practice in system layer threat modeling where STRIDE, LINDDUN, and DREAD are particularly common.
+In case a more loose approach is desired, for example when there is an explicit desire for more custom threat modeling, a different approach would need to be followed.
+Ideally there'd be existing mnemonics to be used as is the common practice in system layer threat modeling where STRIDE, LINDDUN, and DREAD are particularly notable.
 An older technique of performing threat identification in the past, attack trees, however is quite transferable to the architectural layer.
 Setting the initial concept front and center and then adding basic categories (such as those found in CAWE "security techniques").
-
