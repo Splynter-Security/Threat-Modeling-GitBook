@@ -18,10 +18,10 @@ Threat - Threat Event - Threat Actors.
 Recall, the main goal of threat identification is to use the results of the modeling efforts to generate a list of threats likely to impact the architecture being developed.
 Threat actors are more used to inform these threats and refine the context model.
 
-## Threat Actors
+### Threat Actors
 ...
 
-## Architectural Threats
+### Architectural Threats
 This does lead to an important question: what is an architectural threat?
 As stated before, currently threat modeling in practice is mostly applied at the system layer meaning existing threat definitions mostly focus solely on the system layer, a clear definition of architectural threats is vital to continue.
 
@@ -44,7 +44,7 @@ A more practical approach to this brainstorming step is using existing threat ca
 There is current support for this with MITRE's CAPEC and CAWE.
 
 In case a more loose approach is desired, this more often the case if there is an explicit desire for more custom threat modeling, however.
-Ideally there'd be existing mnemonics to be used as is the common practice in system layer threat modeling where STRIDE, LINDUNN, and DREAD are particularly common.
+Ideally there'd be existing mnemonics to be used as is the common practice in system layer threat modeling where STRIDE, LINDDUN, and DREAD are particularly common.
 An older technique of performing threat identification in the past, attack trees, however is quite transferable to the architectural layer.
 Setting the initial concept front and center and then adding basic categories (such as those found in CAWE "security techniques").
 
