@@ -1,12 +1,25 @@
 # Technique: CAPEC
 
-A practical technique for generating a list of threats. Explain it with tactics and weaknesses. Weaknesses are vulnerabilities but not threats. Threats need to be acted upon however they can used to inform your thinking. https://cwe.mitre.org/data/definitions/1000.html Making such a list can look as follows: One often pitfall in building architectural catalogs is confusing threats with vulnerabilities.
-
+CAPEC is a practical technique for establishing a list of potential threats.
+It revolves around cross-referencing a prexisting catalogue of known "attack patterns" and a catalogue of known "architectural weaknesses" to find potential architectural threats.
+Do note that a common pitfall in this step is to focus on finding vulnerabilities instead of threats.
+One of the used catalogs, CAWE, is a catalog of architectural vulnerabilities.
+The end goal is not to find vulnerabilities in the system under analysis but to identify potential threats.
+Potential vulnerabilities however are interesting to find potential threats that could exploit these.
 
 ## Background
 
+Using threat catalogs to perform threat identification requires the usage of previously well established catalogs.
+This means it's important to vet the resources to be used.
+
 ### MITRE
 MITRE is an organization, well known for its att&ck list, a list of threats for applications with a whole database of weaknesses and more.
+MITRE's catalogs are prominant reso
+
+### CWE
+Common Weakness Enumeration.
+Maintained by MITRE, this enumeration focusses on vulnerabilities.
+A CWE is the base unit of MITRE catalogs.
 
 ### CAWE
 Was developed for the department of homeland security. It is well peer reviewed and became part of the 
