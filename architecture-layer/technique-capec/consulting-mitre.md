@@ -12,6 +12,7 @@ Expanding these show individual threats.
 These individual threats are of interest in this step.
 
 **adjust this to expand access control**
+
 ![CAPEC mechanisms of attack](capec-mechanisms-of-attack.png)
 
 Clicking one will result in the following image.
@@ -20,7 +21,7 @@ it lists a description, relationships, prerequisites, execution flows, mitigatio
 
 ![CAPEC exploitation of trusted identifiers](capec-exploitation-of-trusted-identifiers.png)
 
-There's a lot of information here to go through, but initially the most important section to focus on is actually found at the bottom, under relevant weaknesses.
+There's a lot of information here to go through, but initially the most important section to focus on is actually found at the bottom, under relevant weaknesses, listed by CWE id.
 What this section actually does is it links the current CAPEC -- a threat, to potential weaknesses -- vulnerabilities.
 Recall from the previous section where this technique was explained at a higher level that there exists a catalogue of architectural weaknesses (CAWE).
 Unfortunately, MITRE does not provide its own catalog of of architectural threats, the threats found through CAPEC are cross-level and include system threats that are not relevant for the architectural level.
@@ -29,6 +30,12 @@ Simply, a threat is an architectural threat if it has relevant architectural wea
 So after identifying a CAPEC, inspect the listed CWEs to determine whether any are architectural weaknesses.
 
 
-
 ## Interpreting C(A)WEs
-Pictures: CAPEC website
+After following a CWE link, the user is redirected to a different catalog, the CWE catalog.
+CWE stands for Common Weakness Enumeration.
+Similar to CAPEC it has a variety of sections that explore the weakness in more detail
+
+Of special interest here is the "Relationships" section, this section shows relations with ....
+If it lists "Relevant to the view "Architectural Concepts"", that means this specific CWE is also found within the CAWE catalog and therefore can occur as an architectural weakness.
+
+![CWE](CWE.png)

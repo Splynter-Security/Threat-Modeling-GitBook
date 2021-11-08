@@ -4,6 +4,7 @@
         "CAPEC",
         "CAWE",
         "LINDDUN",
+        "mitigations",
         "Shostack"
     ]
 }
