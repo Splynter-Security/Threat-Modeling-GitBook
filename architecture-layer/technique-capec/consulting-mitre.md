@@ -31,11 +31,13 @@ So after identifying a CAPEC, inspect the listed CWEs to determine whether any a
 
 
 ## Interpreting C(A)WEs
-After following a CWE link, the user is redirected to a different catalog, the CWE catalog.
+After following a CWE link (for example "CWE-302 on the previous page), the user is redirected to a different catalog, the CWE catalog.
 CWE stands for Common Weakness Enumeration.
 Similar to CAPEC it has a variety of sections that explore the weakness in more detail
 
+![CWE](CWE.png)
+
 Of special interest here is the "Relationships" section, this section shows relations with ....
 If it lists "Relevant to the view "Architectural Concepts"", that means this specific CWE is also found within the CAWE catalog and therefore can occur as an architectural weakness.
-
-![CWE](CWE.png)
+Because it is now known that if a CWE is an architectural weakness, than any related threat (such as the original "exploitation of trusted identifiers" threat) can be classified as an architectural threat -- the originally found threat can thus be classified as an architectural threat.
+This results in a usable threat to now analyze with the previously established context model.
