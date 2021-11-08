@@ -38,34 +38,11 @@ An important shortcoming of CAPEC is that it lists all software and hardware thr
 This means it's important to use other tools in combination with CAPEC to determine architectural threats to the system.
 
 ## How to use it
-Recall, threat catalogs are part of the threat identification phase.
-At this point, you already have a model.
+In the next sections, the topic of using these catalogues will be further explored.
+Recall, threat catalogs are part of the threat identification phase, there will be a rudimentary context model already in place and now there is a desire to generate a list of potential threats to the system architecture and to further refine said model.
 
-The workflow of using the CAPEC threat catalog to perform
-As a company, you have your model, cool now what.
-Workflow: 1) go to CAPEC, look through threats 2) check if architectural CWE 3) link to model 4) write down the threat 5) add classifiers
-Going through this list one by one and considering how a certain threat could apply to your current architecture, if it does 
-
-### Traversing CAPEC
-CAPEC website
-There are currently 2 main views within CAPEC: mechanisms of attack or domains of attack.
-Lining this to your model, mechanisms focus more on interaction between components whereas domains focus more on entities themselves.
-Clicking through to the desired view a collection of high level categories will be presented.
-Expanding these show individual threats.
-These individual threats are of interest in this step.
-Clicking one will result in the following image.
-**image capec example**
-it lists a description, relationships, prerequisites, mitigation and occasionally weaknesses.
-
-
-
-### Interpreting C(A)WEs
-Pictures: CAPEC website
-
-### Consider CAPEC with Context Model
-
-take an archimate example and do a consideration
-
-### Document the Threat
-
-image: making a list of threats
+In brief, the workflow of using the CAPEC threat catalog to perform is as follows:
+1) go to CAPEC website and start browsing threats one-by-one
+2) determine whether the current threat is an architectural threat or not by cross-referencing with the CAWE catalog through a forward link
+3) analyze the threat in relation to the context model
+4) document the threat and refine the context model
