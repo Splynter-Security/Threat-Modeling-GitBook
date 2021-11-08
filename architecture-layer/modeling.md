@@ -12,6 +12,7 @@ Of course, before we  can use the model, it has to first be drafted - meaning a 
 Architectural modeling as a discipline has a wealth of literature to probe from with new modeling notations being a constant point of development.
 Also the field of risk management has influenced these efforts providing a good base for security management threat modeling to build upon.
 
+
 ## Ideal Notation
 A natural starting point to find the right modeling language is thus to look at modeling notations specialized in the architectural layer.
 A good architectural system model needs to be able to show multi-layer concepts, ideally providing a common abstract language for business and technical analysts to communicate with.

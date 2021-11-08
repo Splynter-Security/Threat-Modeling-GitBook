@@ -4,7 +4,10 @@
         "CAPEC",
         "CAWE",
         "LINDDUN",
+        "majeur",
         "mitigations",
-        "Shostack"
+        "Shostack",
+        "Togaf",
+        "Zachman"
     ]
 }
