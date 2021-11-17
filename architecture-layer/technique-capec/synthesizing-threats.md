@@ -41,7 +41,13 @@ In a way, creating a broader threat by virtually combining smaller ones.
 
 ### Missing generalizations
 
-Due to the way cross-referencing works...
+Due to the way cross-referencing works it's sometimes tricky to stay at the same conceptual layer.
+If examining CAPEC-28 Fuzzing, as an example, this is an architectural threat but the reason why is CWE-20 Improper input Validation.
+While this CAWE does lead to various architectural threats, someone fuzzing a badly validated input field is a kind of architectural threat.
+It doesn't really fit neatly in the architectural layer, there is a sense of it being too implementation based.
+When such a threat is found, it's useful to think about how to generalize this threat.
+In the end, the goal again, is to find a list of threats -- CAPEC is simply a tool.
+For example, fuzzing can be generalized as ... **NOT SURE YET HOW TO GENERALIZE IT MYSELF**
 
 ### Bad Prioritization
 
