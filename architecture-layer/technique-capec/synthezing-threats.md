@@ -9,11 +9,29 @@ A CAPEC is used to brainstorm threats in combination with the context model.
 For example, take CAPEC-122: Privilege Abuse.
 **Take an archimate example and do a consideration.**
 
+## Document the Threat
+The final step in the technique is to document the actual threat.
+Of course, you want to write down the threat in a numbered list somewhere, maybe link it with the explicit CAPEC.
+But also important to consider is what meta-information to add.
+A small overview of interesting meta-information:
+
+| Meta-Data  | |
+| --- | --- |
+| Scenario | A scenario that describes how the threat could be exploited in the wild |
+| DREAD | Damage-Reproducibility-Exploitability-Affected Users-Damage analysis |
+| Impact/Feasibility | Simple way of gauging the importance of the threat |
+| Related threats | link other threats together showing alternative ways of interpreting a threat |
+| Components | Instead of documenting an explicit threat for each and every potential issue, write a generic threat and link the potentially affected components separately |
+| Sub/Super-Threats | What does this threat look in a different enterprise layer
+
+image: making a list of threats
+
 ## Common Pitfalls
+Before continuing on to the 
 
 ### Overlapping Threats
-CAPEC attack patterns will sometimes lead to identifying the same kind of threat in multiple different CAPECs.
-As an example CAPEC
+CAPEC attack patterns will sometimes lead to identifying the same kind of threat or very similar ones in multiple different CAPECs.
+As an example take CAPEC-151: Identity Spoofing and CAPEC-21: Exploitation of Trusted Identifiers
 
 ### Missing generalizations
 
@@ -33,9 +51,7 @@ Do note that some second order threats can sometimes be as or more important tha
 A good example of this could be important privilege escalation threats.
 Additional analysis like OSA help and proper documentation help reduce this issue.
 
-## Document the Threat
 
-image: making a list of threats
 
 ## Common Pitfalls
 
