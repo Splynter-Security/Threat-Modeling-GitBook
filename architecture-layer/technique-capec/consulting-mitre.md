@@ -8,7 +8,7 @@ The first step to using this methodology consists of going to the CAPEC website 
 There are currently 2 main "views" within CAPEC: mechanisms of attack or domains of attack.
 These can be found on the left side, under "CAPEC List Quick Access".
 Linking this to the context model background, mechanisms of attack focus on threats in interaction between components whereas domains focus more on threats within entities themselves.
-Both views will need to be explored for a complete threat identification analysis.
+However, note that both views show the same amount of attack patterns and therefore same amount of threats.
 Clicking through to the desired view a collection of high level categories will be presented.
 Expanding these categories show individual threats.
 
@@ -25,7 +25,7 @@ It lists the CAPEC title and ID, description, relationships, prerequisites, exec
 There's a lot of information here to go through, but initially the most important section to focus on is actually found at the bottom, under relevant weaknesses, listed by CWE ID.
 What this section actually does is it links the current CAPEC -- a threat, to potential weaknesses -- vulnerabilities.
 Recall from the previous section where this technique was explained at a higher level that there exists a catalogue of architectural weaknesses (CAWE).
-Unfortunately, MITRE does not provide its own catalog of of architectural threats, the threats found through CAPEC are cross-level and include system threats that are not relevant for the architectural level.
+Unfortunately, MITRE does not provide its own catalog of of architectural threats, the threats found through CAPEC are cross-level and include implementation threats that are not relevant for the architectural level.
 However, because MITRE does have an architectural view at the weakness level (CAWE), this weakness catalog can be used to cross-reference the threat catalog to determine whether or not a threat is an architectural threat.
 Simply, a threat is an architectural threat if it has relevant architectural weaknesses.
 So after identifying a CAPEC, inspect the listed CWEs to determine whether any are architectural weaknesses.
