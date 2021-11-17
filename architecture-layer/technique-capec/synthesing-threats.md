@@ -24,17 +24,24 @@ A small overview of interesting meta-information:
 | Components | Instead of documenting an explicit threat for each and every potential issue, write a generic threat and link the potentially affected components separately |
 | Sub/Super-Threats | What does this threat look in a different enterprise layer
 
-image: making a list of threats
 
 ## Common Pitfalls
-Before continuing on to the 
+Of course, there are several potential pitfalls when trying to analyze a potential threat.
+Here already a couple to consider when applying the CAPEC threat catalog.
 
 ### Overlapping Threats
+
 CAPEC attack patterns will sometimes lead to identifying the same kind of threat or very similar ones in multiple different CAPECs.
-As an example take CAPEC-151: Identity Spoofing and CAPEC-21: Exploitation of Trusted Identifiers
+As an example take CAPEC-151: Identity Spoofing and CAPEC-21: Privilege Abuse.
+Both of these threats are quite similar in an architecture even if the attack patterns are different.
+Think about a malevolent employee that abuses their privileges as an employee to impersonate another employee with more rights to a specific document or drive.
+It's possible to arrive at this threat when considering both CAPECs individually however it's not practical to create a list of threats with many duplicates.
+One way to help diminish this issue is by tracking "related threats", by doing this each new threat needs a reason to exist and if it's similar to another threat, it's easy to navigate between them.
+In a way, creating a broader threat by virtually combining smaller ones.
 
 ### Missing generalizations
 
+Due to the way cross-referencing works...
 
 ### Bad Prioritization
 
@@ -50,9 +57,3 @@ For the most part, try to keep the analysis focused on first order threats.
 Do note that some second order threats can sometimes be as or more important than certain first order threats.
 A good example of this could be important privilege escalation threats.
 Additional analysis like OSA help and proper documentation help reduce this issue.
-
-
-
-## Common Pitfalls
-
-## Tips & Tricks
