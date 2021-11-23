@@ -22,8 +22,8 @@
 * [Technique: OSA](architecture-layer/technique-osa.md)
 * [Technique: CAPEC](architecture-layer/technique-capec.md)
   * [Consulting MITRE](architecture-layer/technique-capec/consulting-mitre.md)
+  * [CAPEC Table](architecture-layer/technique-capec/capec-table.md)
   * [Synthesizing Threats](architecture-layer/technique-capec/synthesizing-threats.md)
-  * [Practical MITRE](architecture-layer/technique-capec/practical-mitre.md)
 * [(FUTURE) Controls](architecture-layer/controls.md)
 
 ## Implementation Layer

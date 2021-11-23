@@ -1,12 +1,12 @@
-# Practical MITRE
+# Capec Table
 
 While consulting the CAPEC and cross-referencing with CAWE ensures good coverage of threats in the architecture due to MTIRE being a well respected source for this kind of work, it does have practical shortcomings.
 As becomes apparent quite quickly when using the CAPEC website, it can get tedious clicking through all the numerous categories and threats.
-To make that process less cumbersome, a table that lists all CAPECs related to a CAWE is provided in this section.
-Note, this might not be up-to-date with the latest CAPEC update.
+To make that process less cumbersome, the table below lists all CAPECs related to a CAWE.
 The CAPEC-ID can then be used to look up the CAPEC on the CAPEC website and directly browse through the attack pattern.
+Note, this might not always be up-to-date with the latest CAPEC update.
 
-## Overview
+## Table
 
 | # | Mechanism | CAPEC-ID | Attack Pattern | Domains |
 | --- | --- | --- | --- | --- |
