@@ -43,3 +43,4 @@
 ***
 
 * [Credits](credits.md)
+* [References](references.md)
