@@ -64,4 +64,4 @@ Do note that some second order threats can sometimes be as or more important tha
 A good example of this could be important privilege escalation threats.
 Additional analysis like OSA help and proper documentation help reduce this issue.
 
-### CAPEC has a cyber developer focus
+### CAPEC has a software focus
