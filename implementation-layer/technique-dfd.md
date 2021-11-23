@@ -1,3 +1,3 @@
-# Extensions
+# Technique: DFD
 
 Will be added in a future edition of the course.
