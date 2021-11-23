@@ -64,4 +64,9 @@ Do note that some second order threats can sometimes be as or more important tha
 A good example of this could be important privilege escalation threats.
 Additional analysis like OSA help and proper documentation help reduce this issue.
 
-### CAPEC has a software focus
+### CAPEC has an engineering background
+
+CAPEC as a tool was initially made for security developers or engineers -- it has a rich background in the implementation layer.
+This does make it less natural to be used for the architectural layer.
+Sometimes attack patterns might have clunky names or there are a few kinds of architectural threats that are not able to captured using CAPEC.
+This is why it's important to complement CAPEC with other tools like OSA.
