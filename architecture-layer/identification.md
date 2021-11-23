@@ -19,7 +19,7 @@ This section's following paragraphs will explore the concept of threats and prov
 
 ## Concept of "Threats"
 As touched upon in the modeling step and the name implies, threats are central to threat modeling.
-Reviewing the distinction between the kinds of threats: a threat is a possible danger that exploits a weakness, a threat actor is anything capable of acting against an asset in a harmful manner, and a threat event is an event with the potential to adversely impact an asset.
+Reviewing the distinction between the kinds of threats: a threat is a possible danger to the system, a threat actor is anything capable of acting against an asset in a harmful manner, and a threat event is an event with the potential to adversely impact an asset.
 Recall, the main goal of threat identification is to use the results of the modeling efforts to generate a list of threats likely to impact the architecture being developed.
 Out of these 3 concepts, threats and threat agents are particularly interesting for architectural threat identification.
 
