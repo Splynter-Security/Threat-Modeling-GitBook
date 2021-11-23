@@ -18,16 +18,27 @@ The motivation vector defines 2 spaces: accidental and deliberate actors.
 The localization vector also defines 2: the external and internal actors.
 The agent vector defines 3 sub-spaces: human actor, technological actor and force majeur actors.
 
+### Motivation dimension
+The motivation dimension 
 
-While the motivation, localization and spaces are quite obvious, the last agents demand a bit more deliberation.
+### Localization dimension
+
+### Force Majeur dimension
+The force majeur dimension defines what kind of agent the actor is.
+In a way, in what kind of universe it's understood to exist, the sub-spaces make this a bit more clear.
 The human agent is as one would expect any kind of human actor such as users, attackers, APTs, etc.
 A technological agent creates threats that are tied to physical or chemical processes.
 OSA uses as an example aging processes.
 Finally, a force majeur actors are predominately environment-like such as tropical storms, earthquakes, water, etc.
 
-For architectural threat modeling, the motivation and localization dimensions are particularly helpful in defining the kind of actor at play.
 
-**Use example of how to refine actors in archimate?**
+## Shortcomings
+
+Introduce relational dimension: Internal, Supplier, Unknown
+
+
+## Example Table
+**insert table example**
 
 ## Conclusion
 
