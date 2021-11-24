@@ -25,7 +25,7 @@ Identifying new threats when new components are added then modelling these threa
 Threat modeling assists in building a continuous risk analysis documentation that assists future security initiatives in identifying what threats to focus on.
 
 Lots of work has already been done on threat modelling for cyber security.
-Microsoft especially has been a big contributor with innovations such as STRIDE and the Secure Development Lifecyle.
+Microsoft especially has been a big contributor with innovations such as STRIDE and the Secure Development Lifecycle.
 Also OWASP, SABSA, MITRE and more are all well respected international organizations that have aiding in building the threat modelling movement. 
 This course uses many of these entities as references.
 
