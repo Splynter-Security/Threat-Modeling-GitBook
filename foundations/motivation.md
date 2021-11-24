@@ -8,7 +8,7 @@ Is there any way to prevent this from happening?
 Perhaps a consistent methodology to chart the security landscape of their company, identifying dangers not just on singular servers but also in the supply chain and beyond.
 This is the story of many companies involved in the 2019-2020 Solarwinds attacks [[2]](#References).
 
-![*image source [[1]](#References)*](motivation-cover.jpg)
+![](motivation-cover.jpg)
 
 
 
@@ -30,6 +30,6 @@ Other OWASP in web ...
 This course uses many inspirations such as Shostack, SABSA, Archimate, MITRE,
 
 ## References
-1: https://www.dw.com/en/threat-modeling-guide-how-to-identify-digital-risks-in-international-development-projects/a-55092469
+1: (image) https://www.dw.com/en/threat-modeling-guide-how-to-identify-digital-risks-in-international-development-projects/a-55092469
 
 2: https://en.wikipedia.org/wiki/SolarWinds#2019%E2%80%932020_supply_chain_attacks
