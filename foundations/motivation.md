@@ -6,11 +6,9 @@ Not because of flaws in their software or operational practices however, but due
 The news quickly finds it way to the executives of the company who ask themselves how such an issue couldn't be identified earlier.
 Is there any way to prevent this from happening?
 Perhaps a consistent methodology to chart the security landscape of their company, identifying dangers not just on singular servers but also in the supply chain and beyond.
-This is the story of many companies involved in the 2019-2020 Solarwinds attacks [[2]](#References).
+This is the story of many companies involved in the 2019-2020 Solarwinds attacks [[1]](#References).
 
 ![](motivation-cover.jpg)
-
-
 
 ## What
 
@@ -20,16 +18,18 @@ This domain is known as threat modelling.
 In a broad sense, threat modelling is something all of us do every day to understand the dangers (or "threats") in our day-to-day life.
 As shown in the earlier example, today, this kind of process should also be done by companies to protect and gain a deeper understanding of their own cyber infrastructure.
 
-
 ## How
 
-Threat modelering documentatie wordt best toegepast als een iteratief proces waarin het onderliggend systeem systematisch duidelijker wordt geschetst. Dit zorgt voor een continue risicoanalyse van het onderliggend systeem om toekomstige securityinitiatieven te helpen begeleiden
+In essence, threat modelling should be seen as a process of iteratively refining a defined security model.
+Identifying new threats when new components are added then modelling these threats, thus maintaining a consistent view of a system's risk profile in its broader environment.
+Threat modeling assists in building a continuous risk analysis documentation that assists future security initiatives in identifying what threats to focus on.
 
-Lots of work has been done, especially by Microsoft.
-Other OWASP in web ...
-This course uses many inspirations such as Shostack, SABSA, Archimate, MITRE,
+Lots of work has already been done on threat modelling for cyber security.
+Microsoft especially has been a big contributor with innovations such as STRIDE and the Secure Development Lifecyle.
+Also OWASP, SABSA, MITRE and more are all well respected international organizations that have aiding in building the threat modelling movement. 
+This course uses many of these entities as references.
 
 ## References
-1: (image) https://www.dw.com/en/threat-modeling-guide-how-to-identify-digital-risks-in-international-development-projects/a-55092469
+1: https://en.wikipedia.org/wiki/SolarWinds#2019%E2%80%932020_supply_chain_attacks
 
-2: https://en.wikipedia.org/wiki/SolarWinds#2019%E2%80%932020_supply_chain_attacks
+2: (image) https://www.dw.com/en/threat-modeling-guide-how-to-identify-digital-risks-in-international-development-projects/a-55092469
