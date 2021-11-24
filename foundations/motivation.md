@@ -6,7 +6,11 @@ Not because of flaws in their software or operational practices however, but due
 The news quickly finds it way to the executives of the company who ask themselves how such an issue couldn't be identified earlier.
 Is there any way to prevent this from happening?
 Perhaps a consistent methodology to chart the security landscape of their company, identifying dangers not just on singular servers but also in the supply chain and beyond.
-This is the story of many companies involved in the 2019-2020 Solarwinds attacks [[1]](#References).
+This is the story of many companies involved in the 2019-2020 Solarwinds attacks [[2]](#References).
+
+![Motivation Cover](motivation-cover.jpg)
+
+*image source [[1]](#References)*
 
 ## What
 
@@ -26,4 +30,6 @@ Other OWASP in web ...
 This course uses many inspirations such as Shostack, SABSA, Archimate, MITRE,
 
 ## References
-1: https://en.wikipedia.org/wiki/SolarWinds#2019%E2%80%932020_supply_chain_attacks
+1: https://www.dw.com/en/threat-modeling-guide-how-to-identify-digital-risks-in-international-development-projects/a-55092469
+
+2: https://en.wikipedia.org/wiki/SolarWinds#2019%E2%80%932020_supply_chain_attacks
