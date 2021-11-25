@@ -3,7 +3,7 @@
 ## Traversing CAPEC
 The first step to using this methodology consists of going to the CAPEC website found at [capec.mitre.org](https://capec.mitre.org/). The starting page should look something like the following:
 
-![CAPEC Website](capec-website.png)
+![CAPEC website](capec-website.png)
 
 There are currently 2 main "views" within CAPEC: mechanisms of attack or domains of attack.
 These can be found on the left side, under "CAPEC List Quick Access".
