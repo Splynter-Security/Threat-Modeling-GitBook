@@ -2,7 +2,7 @@
 
 ```
 Input: Context system models
-Output: Concrete threat lists/overviews
+Output: Concrete threat lists/overviews and a refined context model
 Tools: Brainstorming techniques, mnemonics, generic threat catalogs/libraries
 ```
 
