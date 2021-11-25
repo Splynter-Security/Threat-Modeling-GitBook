@@ -12,7 +12,7 @@ The OSA threat catalogue is made up of sub-spaces in 3 orthogonal dimensions whi
 
 ### Motivation dimension
 
-The motivation dimension defines the dimension that defines the intentions of the the threat actor. It is somewhat straight-forward and since the only options are "accidental and "deliberate",
+The motivation dimension defines the dimension that defines the intentions of the the threat actor. This motivation maps closely to our natural idea of it with the two planes being defined by "accidental and deliberate.
 
 ### Localization dimension
 
