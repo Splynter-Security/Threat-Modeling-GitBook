@@ -33,15 +33,16 @@ Since threat modeling in practice is mostly applied at the implementation layer,
 This leads to the important question: what is an architectural threat?
 A clear definition of architectural threats is vital to continue.
 
-First a couple of examples of architectural attack patterns, a generic form of a threat (from capec.mitre.org):
+First a couple of examples of architectural attack patterns, a generic form of a threat (from capec.mitre.org) [[2]](#References):
 * Adversary in the Middle (AiTM)
 * Exploitation of Trusted Identifiers
 * Software Integrity Attack
 
-It is evident that these kinds of threats are very abstract and do not describe any technology or even pre-existing assumptions of how a component should function.
+It is evident that these kinds of threats are abstract and do not describe any technology or even pre-existing assumptions of how a component should function.
 
-Thus, an architectural threat is a kind of potential danger to the system in how the system was designed and 
-**INSERT DEFINITION OF ARCHITECTURAL THREAT**
+Thus, an architectural threat is a kind of potential danger to the system in how the system was designed, not in how it was implemented or interpreted.
+The threats arise from the abstract function of components and the interactions between them.
+There is always a clear business link in architectural threats, in contrast implementation threats are more focused on technology and practical considerations.
 
 ## Brainstorming
 Returning to the original question, how to build such a threat overview.
@@ -51,12 +52,12 @@ Some of these techniques might sound familiar to the attentive reader for they h
 
 To start of with, one of the best ways to do architectural threat modeling is the use of an architectural threat catalog.
 Of course in order to be able to use such a practical approach to threat identification there would need to exist threat catalogs that focus more on the architectural dimension.
-While there are famous threat catalogs for the implementation layer (MITRE ATT&CK), it is not entirely evident those would exist at the architectural layer as well.
-Luckily there is a currently well supported architectural view to MITRE's CWE named CAWE.
+While there are famous threat catalogs for the implementation layer (MITRE ATT&CK [[3]](#References)), it is not entirely evident those would exist at the architectural layer as well.
+Luckily there is a currently well supported architectural view to MITRE's CWE [[4]](#References) named CAWE [[5]](#References).
 Combining this with MITRE's CAPEC -- a clear methodology for using threat catalogs for architectural threat identification can be made.
 
 In case a more loose approach is desired, for example when there is an explicit desire for more custom threat modeling, a different approach would need to be followed.
-Ideally there'd be existing mnemonics to be used as is the common practice in implementation layer threat modeling where STRIDE, LINDDUN, and DREAD are particularly notable.
+Ideally there'd be existing mnemonics to be used as is the common practice in implementation layer threat modeling where STRIDE [[6]](#References) and LINDDUN [[7]](#References) are particularly notable.
 Unfortunately this is not the case for architectural threat modeling.
 An older technique of performing threat identification in the past, attack trees, however is quite transferable to the architectural layer.
 Setting the initial concept front and center and then adding basic categories (such as those found in CAWE "security techniques") provides a good loose bottom up approach to architectural threat identification.
@@ -65,10 +66,15 @@ Lastly, it's also possible to use the threat agent refinement during the identif
 ## References
 
 1: [(tripwire.com) MITRE Releases an Update to The Common Weakness Enumeration (CWE)](https://www.tripwire.com/state-of-security/mitre-framework/mitre-releases-update-common-weakness-enumeration/)
-2: MITRE ATT&CK
-3: CAPEC
-4: CWE
-5: CAWE
-6: STRIDE
-7: LINDDUN
-8: DREAD
+
+2: [Common Attack Pattern Enumeration and Classification (CAPEC)](capec.mitre.org)
+
+3: [ATT&CK](https://attack.mitre.org/)
+
+4: [Common Weakness Enumeration (CWE)](cwe.mitre.org)
+
+5: [Common Architectural Weakness Enumeration (CAWE)](https://www.researchgate.net/publication/317929320_A_Catalog_of_Security_Architecture_Weaknesses)
+
+6: [STRIDE](https://en.wikipedia.org/wiki/STRIDE_(security))
+
+7: [LINDDUN](https://www.linddun.org/)
