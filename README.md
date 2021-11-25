@@ -1,5 +1,5 @@
 # Threat-Modeling-GitBook
-![](Splynter-cover.png)
+![](Splynter-cover.jpg)
 
 A GitBook on threat modelling.
 This a course developed by [Splynter](https://www.splynter.be/) to aid companies in understanding the fundamentals behind threat modelling.
