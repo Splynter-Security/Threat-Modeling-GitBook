@@ -25,11 +25,19 @@ Identifying new threats when new components are added then modelling these threa
 Threat modeling assists in building a continuous risk analysis documentation that assists future security initiatives in identifying what threats to focus on.
 
 Lots of work has already been done on threat modelling for cyber security.
-Microsoft especially has been a big contributor with innovations such as STRIDE and the Secure Development Lifecycle.
-Also OWASP, SABSA, MITRE and more are all well respected international organizations that have aiding in building the threat modelling movement. 
+Microsoft especially has been a big contributor with innovations such as STRIDE and the Secure Development Lifecycle (see Shostack [[3]](#References)).
+Also OWASP [[4]](#References), SABSA [[5]](#References), MITRE [[6]](#References) and more are all well respected international organizations that have aided in building the threat modelling movement. 
 This course uses many of these entities as references.
 
 ## References
 1: [SolarWinds Supply Chain Attacks on Wikipedia](https://en.wikipedia.org/wiki/SolarWinds#2019%E2%80%932020_supply_chain_attacks)
 
 2: [Cover image source](https://www.dw.com/en/threat-modeling-guide-how-to-identify-digital-risks-in-international-development-projects/a-55092469)
+
+3: *Adam Shostack. 2014. Threat Modeling: Designing for Security (1st. ed.). Wiley Publishing.*
+
+4: [Open Web Application Security Project (OWASP)](owasp.org)
+
+5: [SABSA Enterprise Security Architecture](sabsa.org/)
+
+6: [MITRE](mitre.org)
