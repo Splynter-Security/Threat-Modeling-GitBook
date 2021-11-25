@@ -8,11 +8,9 @@ The first step to using this methodology consists of going to the CAPEC website 
 There are currently 2 main "views" within CAPEC: mechanisms of attack or domains of attack.
 These can be found on the left side, under "CAPEC List Quick Access".
 Linking this to the context model background, mechanisms of attack focus on threats in interaction between components whereas domains focus more on threats within entities themselves.
-However, note that both views show the same amount of attack patterns and therefore same amount of threats.
+However, note that both views show the same amount of attack patterns and therefore the same amount of threats.
 Clicking through to the desired view a collection of high level categories will be presented.
 Expanding these categories show individual threats.
-
-**adjust this to expand access control**
 
 ![CAPEC mechanisms of attack](capec-mechanisms-of-attack.png)
 
