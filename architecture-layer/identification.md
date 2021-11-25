@@ -34,9 +34,9 @@ This leads to the important question: what is an architectural threat?
 A clear definition of architectural threats is vital to continue.
 
 First a couple of examples of architectural attack patterns, a generic form of a threat (from capec.mitre.org) [[2]](#References):
-* Adversary in the Middle (AiTM)
-* Exploitation of Trusted Identifiers
-* Software Integrity Attack
+* **Adversary in the Middle (AiTM)**
+* **Exploitation of Trusted Identifiers**
+* **Software Integrity Attack**
 
 It is evident that these kinds of threats are abstract and do not describe any technology or even pre-existing assumptions of how a component should function.
 
