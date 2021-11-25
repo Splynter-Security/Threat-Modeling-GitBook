@@ -48,12 +48,12 @@ Note, this is different from localization which focuses on the origin of the thr
 ## Example Table
 **insert table example**
 
-| Relation → <br/>Motivation-Localization ↓ | Internal | Supplier | Unknown |
+| **Relation →**<br/>**Motivation-Localization ↓** | **Internal** | **Supplier** | **Unknown** |
 | --- | --- | --- | --- |
-| Internal-Deliberate | | | |
-| Internal-Accidental | | | |
-| External-Deliberate | | | |
-| External-Accidental | | | |
+| **Internal-Deliberate** | | | |
+| **Internal-Accidental** | | | |
+| **External-Deliberate** | | | |
+| **External-Accidental** | | | |
 
 <style>
 r { color: Red }
