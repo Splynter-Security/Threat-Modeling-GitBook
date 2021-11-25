@@ -30,9 +30,9 @@
 
 * [(FUTURE) Modeling](implementation-layer/modeling.md)
 * [(FUTURE) Technique DFD](implementation-layer/technique-dfd.md)
-* [(FUTURE) Identification](implementation-layer/identification.md)
+* [(FUTURE) Identification](implementation-layer/future-identification.md)
 * [(FUTURE) Technique: STRIDE/LINDDUN](implementation-layer/technique-stride-linddun.md)
-* [(FUTURE) Controls](implementation-layer/controls.md)
+* [(FUTURE) Controls](implementation-layer/future-controls.md)
 
 ## Conclusion
 
