@@ -27,16 +27,19 @@ The force majeur dimension defines what kind of agent the actor is. In a way, in
 OSA does have shortcomings however. While any threat actor can be mapped onto the OSA model, it is sometimes lacking as a tool for brainstorming threat actors. There are after all, for example, many kinds of deliberate internal human actors such as disgruntled employees, malicious suppliers. cloud platforms that process data in an undesired fashion, thieves, APTs... In order to provide a bit more guidance in identifying these actors, it can be useful to supplement the OSA threat catalogue with another dimension. For example, by introducing a "relational" dimension which defines actors in accordance to their relation to the system under analysis. The spaces are then defined on an additional axis of internal (within the system itself), supplier, and unknown. Note, this is different from localization which focuses on the origin of the threat actor, not the relation of the threat actor to the system.
 
 ## Example Table
+
+A good way to document OSA threat actors is to map them into a table, below an example of such a table for a simple architecture.
+
 | **Relation →**<br/>**Motivation-Localization ↓** | **Internal** | **Supplier** | **Unknown** |
 | --- | --- | --- | --- |
-| **Internal-Deliberate** | | | |
-| **Internal-Accidental** | | | |
-| **External-Deliberate** | | | |
-| **External-Accidental** | | | |
+| **Internal-Deliberate** | <mark style="color:yellow;">Employee</mark> | <mark style="color:yellow;">Software Contractor</mark>, <mark style="color:yellow;">Cloud Provider</mark>, <mark style="color:yellow;">Library Developer</mark> | <mark style="color:yellow;">Thief</mark>, <mark style="color:yellow;">APT</mark> |
+| **Internal-Accidental** | <mark style="color:yellow;">Employee</mark>, <mark style="color:green;">Server Hardware</mark>, <mark style="color:green;">Employee Hardware</mark> | <mark style="color:yellow;">Software Contractor</mark>, <mark style="color:yellow;">Cloud Provider</mark>, <mark style="color:yellow;">Library Developer</mark> | |
+| **External-Deliberate** | <mark style="color:yellow;">Remote Employee</mark> | <mark style="color:yellow;">ISP</mark> | <mark style="color:yellow;">Hacker</mark>, <mark style="color:blue;">Alien Invasion</mark> |
+| **External-Accidental** | <mark style="color:yellow;">Remote Employee</mark> | <mark style="color:yellow;">ISP</mark>, <mark style="color:green;">The Internet</mark> | <mark style="color:blue;">Natural Disaster</mark> |
 
-<mark style="color:yellow;">*Human Actor*</mark> 
-<mark style="color:green;">*Technology Actor*</mark> 
-<mark style="color:blue;">*Force Majeur Actor*</mark> 
+<mark style="color:yellow;">*Human Actor*</mark>, 
+<mark style="color:green;">*Technology Actor*</mark>, 
+<mark style="color:blue;">*Force Majeur Actor*</mark>
 
 ## Conclusion
 
