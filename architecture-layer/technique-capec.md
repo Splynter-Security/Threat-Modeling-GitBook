@@ -13,11 +13,11 @@ Using threat catalogs to perform threat identification requires the usage of pre
 This means it's important to vet the resources to be used.
 
 ### MITRE
-MITRE [[1]](#References) is an organization, well known for its att&ck list, a list of threats for applications with a whole database of weaknesses and more.
+MITRE [[1]](#references) is an organization, well known for its att&ck list, a list of threats for applications with a whole database of weaknesses and more.
 MITRE's well maintained catalogs are prominent resources for threat modeling and several of them will be very useful for architectural threat modeling.
 
 ### CWE
-The first MITRE catalog that's important for architectural modeling is CWE [[2]](#References) also known as the Common Weakness Enumeration.
+The first MITRE catalog that's important for architectural modeling is CWE [[2]](#references) also known as the Common Weakness Enumeration.
 This community maintained catalog lists common weaknesses found in software and hardware.
 Note, as mentioned before the end goal of threat identification is not to find weakness but to identify threats.
 CWE makes use of "views" to provide different viewpoints of approaching the catalog.
@@ -25,12 +25,12 @@ The views select and organize CWEs into different hierarchical catagories.
 
 ### CAWE
 Out of growing interest in architectural threats, a new specialized "view" of the CWE was made.
-This catalog, known as CAWE (Common Architectural Weakness Enumeration) [[3]](#References) focusses specifically on architectural weaknesses.
+This catalog, known as CAWE (Common Architectural Weakness Enumeration) [[3]](#references) focusses specifically on architectural weaknesses.
 It identifies which CWE can occur at an architectural instead of simply an implementation level.
 Developed as research for the US department of homeland security, it is well peer reviewed and is a cornerstone of this threat identification technique.
 
 ### CAPEC
-CAPEC [[4]](#References) stands for "Common Attack pattern Enumeration and Classification". 
+CAPEC [[4]](#references) stands for "Common Attack pattern Enumeration and Classification". 
 According to the CAPEC website it "provides a comprehensive dictionary of known patterns of attack employed by adversaries...". 
 In essence, it's a huge catalog of threats -- exactly what's necessary for threat identification.
 It can be used as a sort of shopping list of threats that can be cross-referenced with the system under analysis to determine whether it is or isn't a potential threat.

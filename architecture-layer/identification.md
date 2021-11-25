@@ -33,7 +33,7 @@ Since threat modeling in practice is mostly applied at the implementation layer,
 This leads to the important question: what is an architectural threat?
 A clear definition of architectural threats is vital to continue.
 
-First a couple of examples of architectural attack patterns, a generic form of a threat (from capec.mitre.org) [[2]](#References):
+First a couple of examples of architectural attack patterns, a generic form of a threat (from capec.mitre.org) [[2]](#references):
 * **Adversary in the Middle (AiTM)**
 * **Exploitation of Trusted Identifiers**
 * **Software Integrity Attack**
@@ -52,12 +52,12 @@ Some of these techniques might sound familiar to the attentive reader for they h
 
 To start of with, one of the best ways to do architectural threat modeling is the use of an architectural threat catalog.
 Of course in order to be able to use such a practical approach to threat identification there would need to exist threat catalogs that focus more on the architectural dimension.
-While there are famous threat catalogs for the implementation layer (MITRE ATT&CK [[3]](#References)), it is not entirely evident those would exist at the architectural layer as well.
-Luckily there is a currently well supported architectural view to MITRE's CWE [[4]](#References) named CAWE [[5]](#References).
+While there are famous threat catalogs for the implementation layer (MITRE ATT&CK [[3]](#references)), it is not entirely evident those would exist at the architectural layer as well.
+Luckily there is a currently well supported architectural view to MITRE's CWE [[4]](#references) named CAWE [[5]](#references).
 Combining this with MITRE's CAPEC -- a clear methodology for using threat catalogs for architectural threat identification can be made.
 
 In case a more loose approach is desired, for example when there is an explicit desire for more custom threat modeling, a different approach would need to be followed.
-Ideally there'd be existing mnemonics to be used as is the common practice in implementation layer threat modeling where STRIDE [[6]](#References) and LINDDUN [[7]](#References) are particularly notable.
+Ideally there'd be existing mnemonics to be used as is the common practice in implementation layer threat modeling where STRIDE [[6]](#references) and LINDDUN [[7]](#references) are particularly notable.
 Unfortunately this is not the case for architectural threat modeling.
 An older technique of performing threat identification in the past, attack trees, however is quite transferable to the architectural layer.
 Setting the initial concept front and center and then adding basic categories (such as those found in CAWE "security techniques") provides a good loose bottom up approach to architectural threat identification.
