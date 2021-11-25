@@ -13,7 +13,7 @@ This is the story of many companies involved in the 2019-2020 Solarwinds attacks
 ## What
 
 Identifying dangers to operational infrastructure is far from a recent desire.
-Even before the field of cyber security and a company such as Solarwinds even existed it was necessary to chart dangers to physical systems to understand weaknesses to for example theft, war, or even nature natural disasters.
+Even before the field of cyber security and a company such as Solarwinds even existed it was necessary to chart dangers to physical systems to understand weaknesses to for example theft, war, or even natural disasters.
 This domain is known as threat modelling.
 In a broad sense, threat modelling is something all of us do every day to understand the dangers (or "threats") in our day-to-day life.
 As shown in the earlier example, today, this kind of process should also be done by companies to protect and gain a deeper understanding of their own cyber infrastructure.
@@ -21,8 +21,8 @@ As shown in the earlier example, today, this kind of process should also be done
 ## How
 
 In essence, threat modelling should be seen as a process of iteratively refining a defined security model.
-Identifying new threats when new components are added then modelling these threats, thus maintaining a consistent view of a system's risk profile in its broader environment.
-Threat modeling assists in building a continuous risk analysis documentation that assists future security initiatives in identifying what threats to focus on.
+Identifying new threats when new components are added, then modelling these threats -- thus maintaining a consistent view of a system's risk profile in its broader environment.
+Threat modeling builds a continuous risk analysis documentation that assists future security initiatives in identifying what threats to focus on.
 
 Lots of work has already been done on threat modelling for cyber security.
 Microsoft especially has been a big contributor with innovations such as STRIDE and the Secure Development Lifecycle (see Shostack [[3]](#References)).

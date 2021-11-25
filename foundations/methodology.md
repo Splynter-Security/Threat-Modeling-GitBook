@@ -12,7 +12,7 @@ Context Modeling -> Threat Identification -> Managing Controls
 ```
 The results of each phase are used as the inputs of the next phase and refine the previous phases.
 
-The ideas behind this methodology are cross-layer, being both applicable at the architectural as well as the system layer.
+The ideas behind this methodology are cross-layer, being both applicable at the architectural as well as the implementation layer.
 
 ## Modeling
 
@@ -23,26 +23,29 @@ Eventually this model will be expanded to become a a specialized view able to ex
 
 Due to the wide variety of pre-existing modeling languages, there's plenty of choice in notation.
 Oftentimes pre-existing context models can be used as a preliminary 
-However there are several standard notations such as Archimate or Dataflow Diagrams (DFD) that are particularly interesting for creating these context models.
+However there are several standard notations such as Archimate [[3]](#references) or Dataflow Diagrams (DFD) that are particularly interesting for creating these context models.
 They will be explored further in later sections.
-
 
 ## Identification
 
 After having establish an initial architectural system model, the threat identification phase begins.
 Note, this does not mean your model will remain static from this point on, in fact the opposite is true;
 once threats (and later controls) start being identified, the model should be updated to express these concepts as well.
+Also of importance in this phase is the identification of threat actors which guides this process and helps refine the context model.
 
 The main goal of threat identification is the creation of a list of threats to the modeled system.
 Threat identification is very much a brainstorming phase, threats are after all different for every system.
-Threat catalogs, mnemonics such as STRIDE or LINDDUN, or brainstorm schemas are commonly used to aid in keeping this phase structured and methodical.
+Threat catalogs, mnemonics, or brainstorm schemas are commonly used to aid in keeping this phase structured and methodical.
 
 ## Controls
 
 Finally with the refined context model and an overview of threats in hand, it's possible to start identifying controls to manage these threats.
+*This step is not further explored in this version of the course, instead the focus lies on threat identification and how to iteratively model threats themselves.**
 
 # References
 
-1: Threat Modeling - designing for security by Adam Shostack
+1: *Adam Shostack. 2014. Threat Modeling: Designing for Security (1st. ed.). Wiley Publishing.*
 
-2: "Threat modeling: from infancy to maturity"
+2: *K. Yskout, T. Heyman, D. Van Landuyt, L. Sion, K. Wuyts and W. Joosen, "Threat modeling: from infancy to maturity," 2020 IEEE/ACM 42nd International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER), 2020, pp. 9-12.*
+
+3: [Archimate Standard](https://pubs.opengroup.org/architecture/archimate3-doc/)
