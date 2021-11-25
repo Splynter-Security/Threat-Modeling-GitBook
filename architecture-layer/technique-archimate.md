@@ -1,9 +1,10 @@
 # Archimate
 
 ![Insurance claim process depicted in ArchiMate by Marc Lankhorst](archimate_example.jpg)
+
 ArchiMate is *"an open and independent modeling language for Enterprise Architecture"* \[[1]\].
-Proposed and maintained by the Open Group, Archimate is a modeling language intended to enable Business and Technical Analysts to reach cross-layer understanding of larger-scale projects.
-This cross-layer understanding is fundamental to Archimate and will be explored further in the following chapters.
+Proposed and maintained by the Open Group, ArchiMate is a modeling language intended to enable Business and Technical Analysts to reach cross-layer understanding of larger-scale projects.
+This cross-layer understanding is fundamental to ArchiMate and will be explored further in the following chapters.
 
 
 ArchiMate is an architectural modeling language used ...

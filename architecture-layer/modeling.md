@@ -24,8 +24,8 @@ Amongst these, the ideal notation would preferably also have pre-existing securi
 After all, the goal of modeling is to create a suitable context model for managing security risks.
 Do note -- we need to be able to find threats in an architectural sense: design flaws, not simply implementation failures or inter-connectivity issues.
 
-### Archimate
-Archimate [[1]](#references) is a notation that ticks all the above boxes -- an open standard modeling notation specialized in cross-layer modeling.
+### ArchiMate
+ArchiMate [[1]](#references) is a notation that ticks all the above boxes -- an open standard modeling notation specialized in cross-layer modeling.
 Built upon a strong theoretical foundation of TOGAF [[2]](#references), Zachman [[3]](#references), and SABSA [[4]](#references), it provides a multi-view modeling technique that leverages inter-layer concepts.
 Also, a risk and security overlay has already been proposed, providing a toolbox of a diverse array of elements needed for threat modeling activities.
 It is widely used in practice, easing adoption as a threat modeling standard is simplified providing business.
