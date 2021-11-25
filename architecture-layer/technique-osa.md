@@ -2,7 +2,7 @@
 
 Typically, identifying threat actors is an overlooked element in threat modeling. It doesn't tend to be an explicit step in threat identification and at best is implicitly done during context modeling. However, taking time to do more explicit identification of threats definitely can have a positive effect on providing a more holistic overview of threats. They help to refine the context model as well as can be used when judging impact and feasibility of specific threats.
 
-In this section OSA's (Open Security Architecture) threat actor model will be explored. OSA is a world-wide recognized open source community which publishes security controls and patterns.
+In this section OSA's (Open Security Architecture) threat actor model [[1]](#References) will be explored. OSA is a world-wide recognized open source community which publishes security controls and patterns.
 
 ## The OSA Threat Catalogue
 
@@ -44,3 +44,7 @@ A good way to document OSA threat actors is to map them into a table, below an e
 ## Conclusion
 
 As seen, threat actors are important tools for model refinement. This will be of particular use later when judging impact and feasibility of threats in threat identification. On another note, threat actors could also be used on their own as starting points for a more freestyle technique of threat identification "what could a deliberate external actor do to the system architecture?"
+
+## References
+
+1: [2008 - OSA Threat Catalogue Overview](https://www.opensecurityarchitecture.org/cms/library/threat_catalogue)
