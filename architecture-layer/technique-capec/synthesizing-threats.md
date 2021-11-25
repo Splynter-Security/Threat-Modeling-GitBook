@@ -6,8 +6,8 @@ Recall, a CAPEC is an attack pattern which is an abstraction of how an attacker 
 Such a pattern is a kind of threat but note: attack patterns are not the only threats to an architecture.
 A CAPEC is used to brainstorm threats in combination with the context model.
 
-For example, take CAPEC-122: Privilege Abuse.
-**Take an archimate example and do a consideration.**
+For example, take CAPEC-122: Privilege Abuse in a context with a shared PC connected to a database.
+This could lead to identifying of the architectural threat "an employee abuses their access to a shared PC to gain access to the confidential database server".
 
 ## Document the Threat
 The final step in the technique is to document the actual threat.
