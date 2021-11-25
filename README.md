@@ -11,6 +11,6 @@ The second transition, from threat identification to controlling those threats w
 Sections will include some references that are directly related to content on that page and there is an extensive reference section at the end of the course for those interested.
 
 **Authors**
-* *Mathijs hubrechtsen*
+* *Mathijs Hubrechtsen*
 * *Michael Boeynaems*
 
