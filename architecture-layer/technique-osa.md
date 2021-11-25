@@ -45,6 +45,6 @@ A good way to document OSA threat actors is to map them into a table, below an e
 
 As seen, threat actors are important tools for model refinement. This will be of particular use later when judging impact and feasibility of threats in threat identification. On another note, threat actors could also be used on their own as starting points for a more freestyle technique of threat identification "what could a deliberate external actor do to the system architecture?"
 
-## references
+## References
 
 1: [2008 - OSA Threat Catalogue Overview](https://www.opensecurityarchitecture.org/cms/library/threat_catalogue)
