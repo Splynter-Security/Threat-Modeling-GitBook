@@ -19,9 +19,13 @@ The localization vector also defines 2: the external and internal actors.
 The agent vector defines 3 sub-spaces: human actor, technological actor and force majeur actors.
 
 ### Motivation dimension
-The motivation dimension 
+The motivation dimension defines the dimension that defines the intentions of the the threat actor.
+It is somewhat straight-forward and since the only options are "accidental and "deliberate", 
 
 ### Localization dimension
+Localization in the OSA context is tied to the origin of the threat being exploited.
+Either this origin is from within or outside the system under analysis.
+The answer to this question leads to the position on the axis being either internal or external.
 
 ### Force Majeur dimension
 The force majeur dimension defines what kind of agent the actor is.
@@ -31,14 +35,37 @@ A technological agent creates threats that are tied to physical or chemical proc
 OSA uses as an example aging processes.
 Finally, a force majeur actors are predominately environment-like such as tropical storms, earthquakes, water, etc.
 
-
 ## Shortcomings
 
-Introduce relational dimension: Internal, Supplier, Unknown
-
+OSA does have shortcomings however.
+While any threat actor can be mapped onto the OSA model, it is sometimes lacking as a tool for brainstorming threat actors.
+There are after all, for example, many kinds of deliberate internal human actors such as disgruntled employees, malicious suppliers. cloud platforms that process data in an undesired fashion, thieves, APTs...
+In order to provide a bit more guidance in identifying these actors, it can be useful to supplement the OSA threat catalogue with another dimension.
+For example, by introducing a "relational" dimension which defines actors in accordance to their relation to the system under analysis.
+The spaces are then defined on an additional axis of internal (within the system itself), supplier, and unknown.
+Note, this is different from localization which focuses on the origin of the threat actor, not the relation of the threat actor to the system.
 
 ## Example Table
 **insert table example**
+
+| Relation → <br/>Motivation-Localization ↓ | Internal | Supplier | Unknown |
+| --- | --- | --- | --- |
+| Internal-Deliberate | | | |
+| Internal-Accidental | | | |
+| External-Deliberate | | | |
+| External-Accidental | | | |
+
+<style>
+r { color: Red }
+o { color: Orange }
+g { color: Green }
+</style>
+
+- <r>TODO:</r> Important thing to do
+- <o>TODO:</o> Less important thing to do
+- <g>DONE:</g> Breath deeply and improve karma
+
+
 
 ## Conclusion
 
