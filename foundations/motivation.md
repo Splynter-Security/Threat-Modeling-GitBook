@@ -30,6 +30,6 @@ Also OWASP, SABSA, MITRE and more are all well respected international organizat
 This course uses many of these entities as references.
 
 ## References
-1: https://en.wikipedia.org/wiki/SolarWinds#2019%E2%80%932020_supply_chain_attacks
+1: [SolarWinds Supply Chain Attacks on Wikipedia](https://en.wikipedia.org/wiki/SolarWinds#2019%E2%80%932020_supply_chain_attacks)
 
-2: (image) https://www.dw.com/en/threat-modeling-guide-how-to-identify-digital-risks-in-international-development-projects/a-55092469
+2: [Cover image source](https://www.dw.com/en/threat-modeling-guide-how-to-identify-digital-risks-in-international-development-projects/a-55092469)
