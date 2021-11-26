@@ -52,9 +52,8 @@ _**Note:**_ In practice defining a security domain is tricky. Recently trends su
 
 #### Control Requirement
 
-A formalized need to be fulfilled by means of a control in order to face an identified threat.
-
-**TODO: add requirements more in general?**
+**Control Requirements** can be modelled wih _a wide variety of core elements as long as these core elements are complementary_ to those used in modelling risk controls/treatments/mitigations.
+In the example above, the control objective is as an example of a control requirement and the control measure is a kind of risk control.
 
 #### Policy
 

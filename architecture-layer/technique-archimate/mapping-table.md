@@ -15,5 +15,5 @@
 | Risk Management Domain | A domain with shared risk management or security characteristics | Group |
 | Mitigation Domain | A group of assets and actions that together mitigate risk in one or more risk management domains | Group |
 | Risk Control, Treatment, Mitigation | Deployment of a set of services to protect against a threat | Core Elements |
-| Control Requirement | Formal need that must be fulfilled by a control to face a known threat | |
+| Control Requirement | Formal need that must be fulfilled by a control to face a known threat | Core Elements complementary to risk controls |
 | Policy | A set of rules which governs the behavior of a system | |
