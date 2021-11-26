@@ -28,6 +28,8 @@ Another important concept of ArchiMate is its ability to be extended with overla
 
 The final concept of interest is the idea of groups. An ArchiMate group "aggregates or composes concepts that belong together based on some common characteristic". [\[4\]](basics.md#references) This is of special interest for security modelling because it maps closely to the idea of a "security domain". In a security domain, components are grouped with similar security requirements and permissions. There's 2 ways to use grouping in this context, either the initial groups of the busines view are re-used; these map quite naturally to security domains since they tend to denote components that work together in the same business context which have similar risk properties. Or, the second way, let the security architect define specialized security domains in a different view. This is more interesting later in the threat modelling cycle with a very refined model to build a security strategy. Do note that this has implications for threat modeling in zero-trust [\[5\]](basics.md#references) architectures where security domains tend to be defined as the components themselves instead of a collection of components.
 
+![Example of grouping in ArchiMate](images/grouping-example.jpg)
+
 ## References
 
 1: [ArchiMate Specification](https://pubs.opengroup.org/architecture/archimate3-doc/toc.html)
