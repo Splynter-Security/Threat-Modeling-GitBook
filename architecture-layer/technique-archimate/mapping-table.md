@@ -1,5 +1,6 @@
 # ArchiMate Concept Mapping Table
 
+## Risk & Security concepts mapped to ArchiMate
 | Concept | Summary | Mapping |
 | --- | --- | --- |
 | Risk | The potential of loss -- probable frequency and probable magnitude of future loss | Assessment  |
@@ -16,4 +17,7 @@
 | Mitigation Domain | A group of assets and actions that together mitigate risk in one or more risk management domains | Group |
 | Risk Control, Treatment, Mitigation | Deployment of a set of services to protect against a threat | Core Elements |
 | Control Requirement | Formal need that must be fulfilled by a control to face a known threat | Core Elements complementary to risk controls |
-| Policy | A set of rules which governs the behavior of a system | |
+| Policy | A set of rules which governs the behavior of a system | principle |
+
+## References
+1: [Modeling Enterprise Risk Management and Security with the ArchiMate® Language](https://researchportal.unamur.be/en/publications/modeling-enterprise-risk-management-and-security-with-the-archima)
