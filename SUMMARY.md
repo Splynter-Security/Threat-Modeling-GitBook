@@ -16,9 +16,6 @@
   * [Risk and Security Overlay](architecture-layer/technique-archimate/risk-and-security-overlay.md)
   * [Mapping Table](architecture-layer/technique-archimate/mapping-table.md)
   * [Meta-model](architecture-layer/technique-archimate/meta-model.md)
-  * [Risk and Security Overlay](architecture-layer/technique-archimate/risk-and-security-overlay.md)
-  * [Mapping Table](architecture-layer/technique-archimate/mapping-table.md)
-  * [Meta-model](architecture-layer/technique-archimate/meta-model.md)
   <!-- * [(FUTURE) Domains in-depth](architecture-layer/technique-archimate/domains-in-depth.md) -->
   <!-- * [(FUTURE) Examples](architecture-layer/technique-archimate/examples.md) -->
 * [Identification](architecture-layer/identification.md)
