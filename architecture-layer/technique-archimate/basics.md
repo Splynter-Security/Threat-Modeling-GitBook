@@ -12,6 +12,7 @@ There are 3 main layers: the business, application, and technology layers.
 
 As stated before, archimate is
 
+![Archimate Core Framework, showing how the types of elements exist on multiple layer](images/layering.jpg)
 
 
 ## Motivation OVerlay
@@ -45,3 +46,5 @@ Do note that this has applications for threat modeling in zero-trust [[2]](#refe
 [2] : 
 
 [3]: [Motivation example image](https://pubs.opengroup.org/architecture/archimate3-doc/chap06.html)
+
+[4]: [Layering example image](https://pubs.opengroup.org/architecture/archimate3-doc/chap03.html)
