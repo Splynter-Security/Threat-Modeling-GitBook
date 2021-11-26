@@ -11,6 +11,8 @@ Note: this entire sub-chapter includes definitions and concepts directly from th
 However, this white paper was written about risk management at a higher level, not specifically cyber security threat modelling.
 We will therefore focus more on the relevant components.
 
+See table for more definitions.
+
 ## Mapping Risk and Security concepts to ArchiMate
 **These definitions and mappings are near identical copies (including language)** of those found in the whitepaper.
 Sometimes slightly adjusted or amended to focus more on threat modelling instead of risk management.
