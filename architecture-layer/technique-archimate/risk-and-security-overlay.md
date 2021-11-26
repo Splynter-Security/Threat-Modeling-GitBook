@@ -48,7 +48,7 @@ _**Note:**_ In practice defining a security domain is tricky. Recently trends su
 
 **Risk Control**, **Treatment**, **Mitigation** can nearly all, depending on the kind of action, be modelled with  _any core element or combination_ thereof. A grouping can also be used to form a control of several different sub-components.
 
-_**TODO: Add picture of examples + maybe a grouping**_
+![Example showing the relationships between risk and controls](images/controls-example.jpg)
 
 #### Control Requirement
 
