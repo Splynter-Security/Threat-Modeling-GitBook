@@ -31,13 +31,15 @@ An overlay is xyz.
 An extension is xys
 Overlays and extensions allow for reuse of the core Archimate specification in contexts that need a bit more refinement of its general purpose layer.
 
-## Domains
+## Grouping
 
 The final concept of interest is the idea of domains. 
 A domain is xyz.
 This of special interest for security modelling because it maps closely to the idea of a "security domain".
 Where components are grouped with similar security requirements and permissions.
-Do note that this has applications for threat modeling in zero-trust [[2]](#references) architectures. 
+Do note that this has implications for threat modeling in zero-trust [[2]](#references) architectures. 
+
+![Motivation Example](images/grouping.jpg)
 
 ## References
 
