@@ -1,10 +1,13 @@
 # Risk and Security Overlay
 
-The ArchiMate standard explicitly defined itself to be extensible. One of the main building blocks to support this goal is the ability for individuals to develop ArchiMate "overlays" these are extended specifications of ArchiMate using basic ArchiMate building blocks to allow for more expressiveness. An example of such an overlay is specifically important for threat modeling: the ArchiMate risk and security overlay. This overlay has become part of ... The white paper updated for ArchiMate 3.1 can be found here. This chapter will outline the theoretical foundation, main building blocks as well as practical examples of the overlay.
+The ArchiMate standard explicitly defined itself to be extensible. 
+One of the main building blocks to support this goal is the ability for individuals to develop ArchiMate "overlays"; 
+extended specifications of ArchiMate using basic ArchiMate building blocks to allow for more expressiveness.
+An example of such an overlay is especially important for threat modeling: the ArchiMate risk and security overlay. [[1]](#references)
 
+This chapter will outline the theoretical foundation, main building blocks as well as practical examples of the overlay.
 In what follows we will introduce each individual risk management concept and how it is mapped to the ArchiMate standard. Note: this entire sub-chapter includes definitions and concepts directly from the risk and security overlay whitepaper. However, this white paper was written about risk management at a higher level, not specifically cyber security threat modelling. We will therefore focus more on the relevant components.
-
-See table for more definitions. please sync?please
+See table for more definitions.
 
 ## Mapping Risk and Security concepts to ArchiMate
 
@@ -12,27 +15,22 @@ See table for more definitions. please sync?please
 
 ### Risk
 
-**Risk** can be defined as the probably frequency and probable magnitude of future loss. Risk also includes the potential of a potentially undesirable outcome (loss) resulting from a given action, activity, and/or inaction foreseen and unforeseen. Mapping the concept of risk in ArchiMate can be done with the _assessment_ concept, for example through specialization. In a threat model however, risk itself is not commonly modelled. What is far more useful is to model individual threats, control measures, etc.
+Mapping the concept of **risk** in ArchiMate can be done with the _assessment_ concept, for example through specialization. 
+In a threat model however, risk itself is not commonly modelled. What is far more useful is to model individual threats, control measures, etc.
+**Risk metrics** should be included as _attributes_ to the risk concept.
+Finally, a **loss event** (the event that the risk considers) can be mapped to the _business event_ concept.
 
-**Risk metrics** are metrics used to quantify risk. These should be included as _attributes_ to the risk concept.
-
-A **loss event** is any circumstance that causes a loss or damage to an asset. loss events can be mapped to the _business event_ concept.
-
-_**TODO: Add picture of the various kinds of risks**_
-
-![test](broken-reference)
+![Modelling a Risk and Loss event](images/risk-and-loss-event.jpg)
 
 ### Threat
+The general notion of a **threat** can be modelled as an ArchiMate _driver_, however since threat is an ambiguous term, more specific notions of threat are used to more precisely model threats.
+The term **Threat Agent** refers to the above entity capable of causing harm. There exist _various active structure_ ArchiMate elements that could be used to model threat agents. In practice, _business actor_ elements are commonly used. In contrast to threat agent, a **Threat Event** refers to the actual event that may cause harm. 
+Similar to threat agents, threat events can be naturally mapped as a specialization to the _business event_ element. 
+"Threat Event" in the overlay is what is most commonly referred to as an actual "threat", both terms can be used in modelling for describing this concept. 
 
-**Threats** are possible dangers that could exploit a vulnerability. It can refer to a threatening circumstance, an entity capable of causing harm, or the actual event that may cause harm. The general notion of a threat can be modelled as an ArchiMate _driver_, however since threat is an ambiguous term, more specific notions of threat are used to more precisely model threats.
+_**Note:**_ When we talk about an _attack_ this is a specific type of threat event that is the result of an _attacker's_ (a specific kind of threat agent) intentional malicious activity.
 
-The term **Threat Agent** refers to the above entity capable of causing harm. Note, this can be both intentional; a hacker with malicious intent, or accidental; an employee accidentally types the wrong bash command. There exist _various active structure_ ArchiMate elements that could be used to model threat agents. In practice, _business actor_ elements are commonly used.
-
-In contrast to threat agent, a **Threat Event** refers to the actual event that may cause harm. Similar to threat agents, threat events can be naturally mapped as a specialization to the _business event_ element.
-
-_**Note:**_ When we talk about an _attack_ this is a specific type of threat event that is the result of an _attacker's_, a specific kind of threat agent, intentional malicious activity.
-
-_**TODO: Add picture of the various kinds of threats**_
+![Example showing the relationships between components, threats and loss events](images/threats-example.jpg)
 
 ### Asset at risk
 
@@ -69,3 +67,6 @@ A formalized need to be fulfilled by means of a control in order to face an iden
 **TODO: add requirements more in general?**
 
 ### Policy
+
+
+## References
