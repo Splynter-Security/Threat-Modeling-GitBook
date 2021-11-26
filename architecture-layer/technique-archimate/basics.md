@@ -22,21 +22,24 @@ One of the "why's" being to create documentation to guide future implementation 
 Since ArchiMate is multi-layer, there is a common language between the "who's" doing traditional threat modelling or penetration testing and the security architects.
 Also in the business, the threat model can be explained to any stakeholder ranging from business architects to technical architects who have different views and responsibilities.
 
-## Motivation Overlay
+## Motivation Elements
 
-Motivation elements enable analysts to model elements related to goals, outcomes, principles and requirements.
+Motivation elements enable architects to model elements related to goals, outcomes, principles and requirements.
 Being able to communicate intention and current information not related to the practical modeling of components is crucial for certain use-cases.
 This provides the context that allows for showing complex requirements on ArchiMate models related to the underlying components.
 This will be especially relevant for risk management (and threat modeling) since this often is focused on core concepts surrounding requirements and security objectives to supplement the components.
 
 ![Motivation Example](images/motivation-example.jpg)
 
-## Overlays and Extensions
+## Extendability
 
-Another important concept of Archimate is its ability to be extended with overlays and extensions.
-An overlay is xyz.
-An extension is xys
-Overlays and extensions allow for reuse of the core Archimate specification in contexts that need a bit more refinement of its general purpose layer.
+Another important concept of ArchiMate is its ability to be extended with overlays.
+In essence, an overlay is a specialization of the core ArchiMate framework where certain concepts are "specialized" into more applicable ones.
+The specialized concepts all properties of the parent concept.
+Overlays allow for reuse of the core Archimate specification in contexts that need a bit more refinement than its general purpose layer.
+A good example of this is the ArchiMate "Risk & Security Overlay" which will be extensively covered in the next sections. [[3]]()
+
+![Example of specialization using the Risk & Security Overlay](images/specialization-example.jpg)
 
 ## Grouping
 
