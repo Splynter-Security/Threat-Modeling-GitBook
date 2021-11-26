@@ -56,6 +56,13 @@ _**Note:**_ In practice defining a security domain is tricky. Recently trends su
 In the example above, the control objective is as an example of a control requirement and the control measure is a kind of risk control.
 
 #### Policy
+A security **policy** can be modelled as an archimate motivation *principle*.
+Policies can be further specialized as risk or security policies.
 
+![Example of a policy](images/policy-example.jpg)
 
 ## References
+
+1:
+
+2:
