@@ -1,24 +1,27 @@
 # Basics
 
-The intention of this chapter is not to give a complete introduction to Archimate.
+The intention of this chapter is not to give a complete introduction to ArchiMate.
 It is assumed that at least some background is already present.
-If this is not the case, please refer to the Archimate specification for more information. [[1]](#references)
+If this is not the case, please refer to the ArchiMate specification for more information. [[1]](#references)
 Instead, this chapter will highlight the core concepts and notations used in Archimate that are of interest to be extended for threat modeling.
 
 ## Layers
 
 One of the most distinctive elements of the Archimate notation is its clear separation into different layers that can be easily mapped on TOGAF or Zachman layers.
-As stated before, archimate is...
-The main draw of Archimate is its clear separation of layers.
-There are 3 main layers:
-There is however also a fourth layer which is usually used less than the other 3, namely the motivation layer...
+There are 3 main layers: the business, application, and technology layers.
 
-## Motivation Layer
+As stated before, archimate is
 
-The motivation layer, also sometimes referred to as the strategic layer, enables analysts to model elements related to goals, outcomes, principles and requirements.
-This will be especially relevant for risk management since this often is focused on core concepts surrounding requirements and security objectives.
 
-**insert an image of the main archimate motivation elements**
+
+## Motivation OVerlay
+
+ Motivation elements enable analysts to model elements related to goals, outcomes, principles and requirements.
+Being able to communicate intention and current information not related to the practical modeling of components is crucial for certain use-cases.
+This provides the context that allows for showing complex requirements on ArchiMate models related to the underlying components.
+This will be especially relevant for risk management (and threat modeling) since this often is focused on core concepts surrounding requirements and security objectives to supplement the components.
+
+![Motivation Example](images/motivation-example.jpg)
 
 ## Overlays and Extensions
 
@@ -33,6 +36,12 @@ The final concept of interest is the idea of domains.
 A domain is xyz.
 This of special interest for security modelling because it maps closely to the idea of a "security domain".
 Where components are grouped with similar security requirements and permissions.
-Do note that this has applications for threat modeling in zero-trust architectures. [[2]](#references)
+Do note that this has applications for threat modeling in zero-trust [[2]](#references) architectures. 
 
 ## References
+
+[1] : 
+
+[2] : 
+
+[3]: [Motivation example image](https://pubs.opengroup.org/architecture/archimate3-doc/chap06.html)
