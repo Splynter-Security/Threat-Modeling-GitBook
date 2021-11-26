@@ -47,7 +47,6 @@ While this CAWE does lead to various architectural threats, someone fuzzing a ba
 It doesn't really fit neatly in the architectural layer, there is a sense of it being too implementation based.
 When such a threat is found, it's useful to think about how to generalize this threat.
 In the end, the goal again, is to find a list of threats -- CAPEC is simply a tool.
-For example, fuzzing can be generalized as ... **NOT SURE YET HOW TO GENERALIZE IT MYSELF**
 
 ### Bad Prioritization
 

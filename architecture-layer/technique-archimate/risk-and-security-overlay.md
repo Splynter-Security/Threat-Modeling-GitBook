@@ -66,4 +66,3 @@ Policies can be further specialized as risk or security policies.
 1: [Modeling Enterprise Risk Management and Security with the ArchiMate® Language](https://researchportal.unamur.be/en/publications/modeling-enterprise-risk-management-and-security-with-the-archima) (*Also used for certain images*)
 
 2: [Evaluation of the Risk and Security Overlay of ArchiMate to model Information System Security Risks](https://ieeexplore.ieee.org/document/8089840)
-
