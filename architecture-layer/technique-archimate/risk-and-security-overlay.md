@@ -3,15 +3,11 @@
 The ArchiMate standard explicitly defined itself to be extensible. 
 One of the main building blocks to support this goal is the ability for individuals to develop ArchiMate "overlays"; 
 extended specifications of ArchiMate using basic ArchiMate building blocks to allow for more expressiveness.
-An example of such an overlay is especially important for threat modeling: the ArchiMate risk and security overlay. [[1]](#references)
+An example of such an overlay is especially important for threat modeling: the ArchiMate risk and security overlay. [[1]](#references) [2](#references)
 
-This chapter will outline the theoretical foundation, main building blocks as well as practical examples of the overlay.
-In what follows we will introduce each individual risk management concept and how it is mapped to the ArchiMate standard. Note: this entire sub-chapter includes definitions and concepts directly from the risk and security overlay whitepaper. However, this white paper was written about risk management at a higher level, not specifically cyber security threat modelling. We will therefore focus more on the relevant components.
-See table for more definitions.
+This chapter will outline the theoretical foundation, main building blocks as well as practical examples of the overlay. In what follows we will introduce each individual risk management concept and how it is mapped to the ArchiMate standard. In the next sections an overview table of all these components can be found, use this as reference for any definitions that might be unclear.
 
 ## Mapping Risk and Security concepts to ArchiMate
-
-**These definitions and mappings are near identical copies (including language)** of those found in the whitepaper. Sometimes slightly adjusted or amended to focus more on threat modelling instead of risk management. Note many of the mappings can be done through specialization.
 
 ### Risk
 
@@ -39,22 +35,18 @@ Anything (tangible or intangible) capable of being owned or controlled to produc
 #### Vulnerability
 
 A **vulnerability** within cyber security contexts can be defined as a weakness that allows an attacker to threaten the value of an asset. An _assessment_ can be used to model these, either by seeing a vulnerability as a specialization of an assessment or as a specific attribute. However typically vulnerabilities aren't modelled themselves. In an architectural model, known vulnerabilities should be scarce. The focus should lie on threats.
+See the example above for an example of how to model a vulnerability.
 
 ### Domain
 
-A **domain** is a set of related entities that share one or more characteristics and defines the semantic of a specific field. A couple of specific domains will be defined further down. Domains can be mapped to the ArchiMate grouping element.
-
-A **security domain** groups assets with the same security level that fall under the jurisdiction of one security policy.
-
-A **risk management domain** is a group
-
-**Mitigation domains** group together assets amd actions that together mitigate risk in one or more risk management domains. Risk and mitigation domains are concepts more closely associated with risk management than threat modelling.
-
-_**Note:**_ In practice defining a security domain is tricky. Recently trends such as zero-trust and defense-in-depth have only made it even more important to be very clear on your own... In general applying domains at the abstract and defining yourself.... Because of this we included a short chapter which explores how this can be done in practice.
+**Domains** can be mapped to the ArchiMate grouping element.
+**Security domain**, **risk management domain**, and **mitigation domain** are all examples of specific security domains that could be modelled.
+Often, domains are initially copied from the business before becoming more specialized in later threat modeling iterations.
+_**Note:**_ In practice defining a security domain is tricky. Recently trends such as zero-trust and defense-in-depth have only made it even more important to be very careful in going about this.
 
 ### Controls
 
-**Risk Control**, **Treatment**, **Mitigation** are the deployment of a set of security services to protect against a security threat. Reducing a threat, a vulnerability or an attack by eliminating or preventing it, by minimizing the harm it can cause, or by discovering and reporting it so other action can be taken. Depending on the kind of action, nearly _any core element or combination_ thereof can be used to model it. A grouping can also be used to form a control of several different sub-components.
+**Risk Control**, **Treatment**, **Mitigation** can nearly all, depending on the kind of action, be modelled with  _any core element or combination_ thereof. A grouping can also be used to form a control of several different sub-components.
 
 _**TODO: Add picture of examples + maybe a grouping**_
 
