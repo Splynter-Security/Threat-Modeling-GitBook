@@ -34,3 +34,5 @@
 32. Tool: [ATT&CK](https://attack.mitre.org/)
 33. Standard: Archimate
 34. Tool: [Archi](https://www.archimatetool.com/)
+35. Literature: [Modeling Enterprise Risk Management and Security with the ArchiMate® Language](https://researchportal.unamur.be/en/publications/modeling-enterprise-risk-management-and-security-with-the-archima)
+36. Literature: [Evaluation of the Risk and Security Overlay of ArchiMate to model Information System Security Risks](https://ieeexplore.ieee.org/document/8089840)
