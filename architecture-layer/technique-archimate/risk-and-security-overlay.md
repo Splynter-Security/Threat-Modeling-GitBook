@@ -32,15 +32,13 @@ _**Note:**_ When we talk about an _attack_ this is a specific type of threat eve
 
 ![Example showing the relationships between components, threats and loss events](images/threats-example.jpg)
 
-### Asset at risk
+#### Asset at risk
 
-Anything (tangible or intangible) capable of being owned or controlled to produce value can be referred to as an **asset at risk**. In cyber security contexts, this can an data, device, or other component of the environment that supports information-related activities. Mapping assets can be done with _most or a combination of core elements_ in the ArchiMate specification. A specific "asset" profile could be assigned to the elements, this profile could then have attributes important to to the asset such as its value.
+Anything (tangible or intangible) capable of being owned or controlled to produce value can be referred to as an **asset at risk**. In cyber security contexts, this can an data, device, or other component of the environment that supports information-related activities. Mapping assets can be done with _most or a combination of core elements_ in the ArchiMate specification. A specific "asset" profile could be assigned to the elements, this profile could then have attributes important to to the asset such as its value. In the last example, the database server could be an asset at risk.
 
-### Vulnerability
+#### Vulnerability
 
 A **vulnerability** within cyber security contexts can be defined as a weakness that allows an attacker to threaten the value of an asset. An _assessment_ can be used to model these, either by seeing a vulnerability as a specialization of an assessment or as a specific attribute. However typically vulnerabilities aren't modelled themselves. In an architectural model, known vulnerabilities should be scarce. The focus should lie on threats.
-
-_**TODO: Add picture of a vulnerability and asset at risk**_
 
 ### Domain
 
@@ -54,19 +52,19 @@ A **risk management domain** is a group
 
 _**Note:**_ In practice defining a security domain is tricky. Recently trends such as zero-trust and defense-in-depth have only made it even more important to be very clear on your own... In general applying domains at the abstract and defining yourself.... Because of this we included a short chapter which explores how this can be done in practice.
 
-### Risk Control, Treatment, Mitigation
+### Controls
 
 **Risk Control**, **Treatment**, **Mitigation** are the deployment of a set of security services to protect against a security threat. Reducing a threat, a vulnerability or an attack by eliminating or preventing it, by minimizing the harm it can cause, or by discovering and reporting it so other action can be taken. Depending on the kind of action, nearly _any core element or combination_ thereof can be used to model it. A grouping can also be used to form a control of several different sub-components.
 
 _**TODO: Add picture of examples + maybe a grouping**_
 
-### Control Requirement
+#### Control Requirement
 
 A formalized need to be fulfilled by means of a control in order to face an identified threat.
 
 **TODO: add requirements more in general?**
 
-### Policy
+#### Policy
 
 
 ## References
