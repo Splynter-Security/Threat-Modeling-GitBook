@@ -12,7 +12,8 @@ However, this white paper was written about risk management at a higher level, n
 We will therefore focus more on the relevant components.
 
 See table for more definitions.
-please sync?
+please sync?please
+
 
 ## Mapping Risk and Security concepts to ArchiMate
 **These definitions and mappings are near identical copies (including language)** of those found in the whitepaper.
