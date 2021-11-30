@@ -2,7 +2,7 @@
 
 "Threat Modeling" isn't just a one-and-done activity.
 It's more a discipline consisting of several different steps and techniques to get a holistic overview of risk to a system and controls to manage these threats.
-Threat modelling should actually be seen as a constant cyclic refinement of understanding.
+Threat modeling should actually be seen as a constant cyclic refinement of understanding.
 
 While there isn't one set agreed upon methodology for threat modeling, most literature [[1]](#references)[[2]](#references) describe similar phases in the overall lifecycle of a threat model.
 Making this a bit more concrete results in the following approach:
@@ -41,7 +41,7 @@ Threat catalogs, mnemonics, or brainstorm schemas are commonly used to aid in ke
 ## Controls
 
 Finally with the refined context model and an overview of threats in hand, it's possible to start identifying controls to manage these threats.
-*This step is not further explored in this version of the course, instead the focus lies on threat identification and how to iteratively model threats themselves.**
+*This step is not further explored in this version of the course, instead the focus lies on threat identification and how to iteratively model threats themselves.*
 
 # References
 
