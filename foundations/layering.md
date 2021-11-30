@@ -42,12 +42,16 @@ Layering is not a new concept in information systems (IT) design, nor in securit
 The discipline of enterpreise architecture has long seperated business, logical, technological, etc. responsibilities into separate distinct layers with their own properties.
 
 One of the most popular frameworks for layering Enterprise Architecture systems is the Zachman framework.
+
 ![The Zachman framework [4]](zachman.jpg)
+
 Of most interest for threat modeling is the leftmost column which seperates the activities (topmost row) into separate layers.
 Starting from high abstraction level and decomposing into more concrete IT components as the table is descended.
 
 While the Zachman framework itself is more of a theoretical foundation, it did become part of another more practical framework centered on security architecture: SABSA.
+
 ![](sabsa.jpg)
+
 This framework allows for what is truly of interest: defining layers where threat modeling is sensible.
 A synthesis of SABSA can identify 2 dedicated layers on which to perform threat modeling: combining the conceptual and logical layer and calling it architectural and combining the physical and component and calling it system.
 Of course, these 2 new synthesized layers still need 
