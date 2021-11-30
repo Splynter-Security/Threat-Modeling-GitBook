@@ -1,7 +1,7 @@
 # Motivation
 
 ## Why
-One morning an engineer wakes up to to messages alerting them that their company infrastructure has been compromised.
+One morning an engineer wakes up to messages alerting them that their company infrastructure has been compromised.
 Not because of flaws in their software or operational practices however, but due to a critical dependency on a different company.
 The news quickly finds it way to the executives of the company who ask themselves how such an issue couldn't be identified earlier.
 Is there any way to prevent this from happening?
