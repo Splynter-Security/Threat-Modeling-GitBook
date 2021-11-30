@@ -5,7 +5,7 @@ While this course is restricted to cyber infrastructures, even there there are a
 It's therefore not just vital to understand how to threat model, but also to understand what kind of threat modeling is useful and when.
 
 
-## Example: a Car
+## Example: a car
 
 Cars are some of the most widely used examples in demonstrating the necessity of cyber security and it's clear to see why.
 Consisting of a large attack surface which includes millions lines of code, complex networking of components, and potentially devastating real life consequences if things go wrong, cyber security (and threat modeling) is crucial in the automotive sector.
