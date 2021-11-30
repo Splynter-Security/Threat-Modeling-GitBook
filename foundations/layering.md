@@ -17,7 +17,7 @@ Starting on the outside of the vehicle, identifying the potential entry points: 
 ![Opengarages example of a "level 0 inputs" DFD [1]](car-example-level_0.jpg)
 
 Next, the car is further explored, going into another level of decomposition.
-This kind of decomposition is the first kind of layering, it isn't really explored in this course because it is more useful at the implementation layer then it is the architectural layer (see later).
+This kind of decomposition is a simple first kind of layering, it isn't really explored in this course because it is more useful at the implementation layer then it is the architectural layer (see later).
 This next view decomposes the vehicle and shows the actual components of the vehicles
 
 ![Opengarages example of a "level 1 inputs" DFD [2]](car-example-level_1.jpg)
@@ -39,7 +39,23 @@ These kinds of threats will become known as **architectural threats** whereas th
 
 ## Zachman and SABSA
 Layering is not a new concept in information systems (IT) design, nor in security architecture.
+The discipline of enterpreise architecture has long seperated business, logical, technological, etc. responsibilities into separate distinct layers with their own properties.
 
-Zachman
-picture
+One of the most popular frameworks for layering Enterprise Architecture systems is the Zachman framework.
+![The Zachman framework [4]](zachman.jpg)
+Of most interest for threat modeling is the leftmost column which seperates the activities (topmost row) into separate layers.
+Starting from high abstraction level and decomposing into more concrete IT components as the table is descended.
 
+While the Zachman framework itself is more of a theoretical foundation, it did become part of another more practical framework centered on security architecture: SABSA.
+![](sabsa.jpg)
+This framework allows for what is truly of interest: defining layers where threat modeling is sensible.
+A synthesis of SABSA can identify 2 dedicated layers on which to perform threat modeling: combining the conceptual and logical layer and calling it architectural and combining the physical and component and calling it system.
+Of course, these 2 new synthesized layers still need 
+
+## Piecing it all together
+
+## References
+1: Image
+2: Image
+3: fuzzing paper
+4: 
