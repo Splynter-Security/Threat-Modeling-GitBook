@@ -39,3 +39,7 @@
 * [Synthesis](conclusion/synthesis.md)
 <!-- * [(FUTURE) In Practice](conclusion/in-practice.md)
 * [(FUTURE) Extensions](conclusion/extensions.md) -->
+
+***
+
+* [References](conclusion/references.md)
