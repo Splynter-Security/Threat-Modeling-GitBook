@@ -10,7 +10,7 @@ After having made a context model with a solid security dimension, it is time to
 This phase is known as threat identification.
 
 Unfortunately, threat identification in the architectural layer lacks the same rich historic research background as modeling.
-This is mostly due to modeling's relative importance in the field of risk management.
+This is mostly due to modeling's importance in the field of risk management.
 Putting threats front-and-center is a trend that came more out of the cyber security industry and the discipline of "red teaming" which tends to focus more on the implementation layer. [[1]](#references)
 Luckily there is still extensive literature to fall back on, especially in software architecture, as well as the widespread standardization and cataloging efforts in cyber security.
 
