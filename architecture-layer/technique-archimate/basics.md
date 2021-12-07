@@ -10,8 +10,6 @@ One of the most distinctive elements of the Archimate notation is its clear sepa
 
 For architectural threat modelling, this is an excellent starting point. Since the architectural layer encompasses the SABSA conceptual and logical layers, architectural threat modeling's responsibilities map quite naturally onto the business and application layers. However, architectural threat modelling also needs some understanding of the underlying technology to understand how certain threats might manifest themselves.
 
-Also the usefulness of layering comes back in the "why" and "who" of architectural threat modelling. One of the "why's" being to create documentation to guide future implementation layer efforts to be more direct and efficient. Since ArchiMate is multi-layer, there is a common language between the "who's" doing traditional threat modelling or penetration testing and the security architects. Also in the business, the threat model can be explained to any stakeholder ranging from business architects to technical architects who have different views and responsibilities.
-
 ## Motivation Elements
 
 Motivation elements enable architects to model elements related to goals, outcomes, principles and requirements. Being able to communicate intention and current information not related to the practical modeling of components is crucial for certain use-cases. This provides the context that allows for showing complex requirements on ArchiMate models related to the underlying components. This will be especially relevant for risk management (and threat modeling) since this often is focused on core concepts surrounding requirements and security objectives to supplement the components.
