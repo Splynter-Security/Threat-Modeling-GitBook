@@ -18,8 +18,7 @@ A small overview of interesting meta-information:
 | Meta-Data  | |
 | --- | --- |
 | Scenario | A scenario that describes how the threat could be exploited in the wild |
-| DREAD [[1]](#references)| Damage-Reproducibility-Exploitability-Affected Users-Damage analysis |
-| Impact/Feasibility | Simple way of gauging the importance of the threat |
+| Impact/Feasibility | Simple way of gauging the importance of the threat, an alternative is to use DREAD [[1]](#references)|
 | Related threats | link other threats together showing alternative ways of interpreting a threat |
 | Components | Instead of documenting an explicit threat for each and every potential issue, write a generic threat and link the potentially affected components separately |
 | Sub/Super-Threats | What does this threat look in a different enterprise layer
