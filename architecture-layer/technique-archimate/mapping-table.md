@@ -4,9 +4,9 @@ One of the main building blocks to support this goal is the ability for individu
 extended specifications of ArchiMate using basic ArchiMate building blocks to allow for more expressiveness.
 An example of such an overlay is especially important for threat modeling: the ArchiMate risk and security overlay. [[1]](#references) [[2]](#references)
 
-This section introducs a table mapping the used concepts to its definitions and how it is mapped in the overlay.
-Note, in the section of this one we will expand upon the mapping.
-Use this as section more as a reference for definitions and a quick overview for the overlay.
+This section introduces a table mapping the used concepts to their definitions and how they are mapped in the overlay.
+Note, in the section after this one we will expand upon the mappings.
+Instead, use this as section more as a reference for definitions and a quick overview for the overlay.
 
 ## Risk & Security concepts mapped to ArchiMate
 | Concept | Summary | Mapping |
