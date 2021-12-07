@@ -1,11 +1,6 @@
 # Risk and Security Overlay
 
-The ArchiMate standard explicitly defined itself to be extensible. 
-One of the main building blocks to support this goal is the ability for individuals to develop ArchiMate "overlays"; 
-extended specifications of ArchiMate using basic ArchiMate building blocks to allow for more expressiveness.
-An example of such an overlay is especially important for threat modeling: the ArchiMate risk and security overlay. [[1]](#references) [[2]](#references)
-
-This chapter will outline the theoretical foundation, main building blocks as well as practical examples of the overlay. In what follows we will introduce each individual risk management concept and how it is mapped to the ArchiMate standard. In the next sections an overview table of all these components can be found, use this as reference for any definitions that might be unclear.
+This chapter will outline the theoretical foundation, main building blocks as well as practical examples of the overlay. In what follows we will introduce each individual risk management concept and how it is mapped to the ArchiMate standard. 
 
 ## Mapping Risk and Security concepts to ArchiMate
 

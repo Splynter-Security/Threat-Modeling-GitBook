@@ -1,4 +1,12 @@
 # ArchiMate Concept Mapping Table
+The ArchiMate standard explicitly defined itself to be extensible. 
+One of the main building blocks to support this goal is the ability for individuals to develop ArchiMate "overlays"; 
+extended specifications of ArchiMate using basic ArchiMate building blocks to allow for more expressiveness.
+An example of such an overlay is especially important for threat modeling: the ArchiMate risk and security overlay. [[1]](#references) [[2]](#references)
+
+This section introducs a table mapping the used concepts to its definitions and how it is mapped in the overlay.
+Note, in the section of this one we will expand upon the mapping.
+Use this as section more as a reference for definitions and a quick overview for the overlay.
 
 ## Risk & Security concepts mapped to ArchiMate
 | Concept | Summary | Mapping |
@@ -21,3 +29,5 @@
 
 ## References
 1: [Modeling Enterprise Risk Management and Security with the ArchiMate® Language](https://researchportal.unamur.be/en/publications/modeling-enterprise-risk-management-and-security-with-the-archima)
+
+2: [Evaluation of the Risk and Security Overlay of ArchiMate to model Information System Security Risks](https://ieeexplore.ieee.org/document/8089840)
