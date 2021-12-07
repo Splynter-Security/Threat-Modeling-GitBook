@@ -18,7 +18,7 @@ Motivation elements enable architects to model elements related to goals, outcom
 
 ## Extendability
 
-Another important concept of ArchiMate is its ability to be extended with overlays. In essence, an overlay is a specialization of the core ArchiMate framework where certain concepts are "specialized" into more applicable ones. The specialized concepts all properties of the parent concept. Overlays allow for reuse of the core Archimate specification in contexts that need a bit more refinement than its general purpose layer. A good example of this is the ArchiMate "Risk & Security Overlay" which will be extensively covered in the next sections. [\[5\]](basics.md#references)
+Another important concept of ArchiMate is its ability to be extended with specializations. In essence, a specialization of the core ArchiMate framework is one where certain concepts are "specialized" into more applicable ones. The specialized concepts copies all properties of the parent concept. This allows for reuse of the core Archimate specification in contexts that need a bit more refinement than its general purpose layer. A good example of this is the ArchiMate "Risk & Security Overlay" which will be extensively covered in the next sections. [\[5\]](basics.md#references)
 
 ![Example of specialization using the Risk & Security Overlay](images/specialization-example.jpg)
 
