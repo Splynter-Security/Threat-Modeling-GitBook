@@ -17,6 +17,7 @@ Even before the field of cyber security and a company such as Solarwinds even ex
 This domain is known as threat modelling.
 In a broad sense, threat modelling is something all of us do every day to understand the dangers (or "threats") in our day-to-day life.
 As shown in the earlier example, today, this kind of process should also be done by companies to protect and gain a deeper understanding of their own cyber infrastructure.
+Note: further in this course the term "system" will be used often as a general term to denote the collection of components and mechanisms that together form the cyber infrastructure of a stakeholder.
 
 ## How
 
