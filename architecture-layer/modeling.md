@@ -18,7 +18,7 @@ Also the field of risk management has influenced these efforts providing a good 
 
 ## Ideal Notation
 A natural starting point to find the right modeling language is thus to look at modeling notations specialized in the architectural layer.
-A good architectural system model needs to be able to show multi-layer concepts, ideally providing a common abstract language for business and technical analysts to communicate with.
+A good architectural context model needs to be able to show multi-layer concepts, ideally providing a common abstract language for business and technical analysts to communicate with.
 Ideally it's technology independent and able to integrate with lower layer diagrams.
 
 
