@@ -3,6 +3,7 @@
 
 Cars are some of the most widely used examples in demonstrating the necessity of cyber security and it's clear to see why.
 Consisting of a large attack surface which includes millions lines of code, complex networking of components, and potentially devastating real life consequences if things go wrong, cyber security (and threat modeling) is crucial in the automotive sector.
+It is expected that the connected cars sector will double in the next 5 years [1](#references), nearly every new car rolling off the factory line has at least some kinds of smart sensors and functionality embedded within it.
 Putting on a threat modeling lens and delving into this example will show what is meant by different kinds of threat modeling.
 
 
@@ -10,16 +11,16 @@ Putting on a threat modeling lens and delving into this example will show what i
 Commonly, when vehicles are threat modeled, this is done at a component level.
 Starting on the outside of the vehicle, identifying the potential entry points: bluetooth, Wi-Fi, OBD, etc. and then mapping these onto a diagram creates a Dataflow Diagram (DFD) -- a widespread modeling language for threat modeling components.
 
-![Opengarages example of a "level 0 inputs" DFD [1]](car-example-level_0.jpg)
+![Opengarages example of a "level 0 inputs" DFD [2]](car-example-level_0.jpg)
 
 Next, the car is further explored, going into another level of decomposition.
-This kind of decomposition is a simple first kind of layering, it isn't really explored in this course because it is more useful at the implementation layer then it is the architectural layer (see later).
+This kind of decomposition is a simple first kind of layering, it isn't strictly speaking the same as what is meant by "layering" but it is useful for illustrative purposes.
 This next view decomposes the vehicle and shows the actual components of the vehicles
 
-![Opengarages example of a "level 1 inputs" DFD [1]](car-example-level_1.jpg)
+![Opengarages example of a "level 1 inputs" DFD [2]](car-example-level_1.jpg)
 
 After these DFDs are established, threats are able to start being extracted.
-For example, with OBD-II (On-Board Diagnostics) access, it is possible to perform a fuzzing attack on the network to extract information about CAN (Controller Area Network) identifiers and their protocol schemes. [2]
+For example, with OBD-II (On-Board Diagnostics) access, it is possible to perform a fuzzing attack on the network to extract information about CAN (Controller Area Network) identifiers and their protocol schemes. [3](#references)
 As might start to become apparent, these kinds of threats are highly technical, and while they may very well be apt for the situation, they are unable to express the breadth of threat to the overall automotive system.
 For example, what about third party threats?
 Tesla uses over-the-air updates (OTA) to update their vehicles, should this be included in the above diagrams?
@@ -37,6 +38,9 @@ These kinds of threats will become known as **architectural threats** whereas th
 
 ## References
 
+1: [Connected cars industry growth](https://www.mordorintelligence.com/industry-reports/europe-connected-cars-market)
+
 1: [The Car Hacker's Handbook](http://opengarages.org/handbook/ebook/)
 
 2: *Timothy Werquin, Mathijs Hubrechtsen, Ashok Thangarajan, Frank Piessens, Jan Tobias Mühlberg. "Automated Fuzzing of Automotive Control Units." International Workshop on Attacks and Defenses for Internet-of-Things (ADIoT) / International Workshop on the Secure Internet of Things (SIoT), 2019*
+
