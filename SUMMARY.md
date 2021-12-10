@@ -6,6 +6,8 @@
 
 * [Motivation](foundations/motivation.md)
 * [Layering](foundations/layering.md)
+    * [Example](foundations/layering/example.md)
+    * [Enterprise Architecture](foundations/layering/enterprise-architecture.md)
 * [Methodology](foundations/methodology.md)
 
 ## Architecture Layer
