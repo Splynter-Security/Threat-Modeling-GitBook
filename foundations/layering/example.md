@@ -35,6 +35,7 @@ As an example, instead of seeing threats to the CAN bus (the internal networking
 The above "fuzzing" example threat could be translated to "analyzing the internal network protocol", making the threat more generally applicable and moving it to another layer of abstraction.
 Now, if the internal network would change away from CAN to e.g. FireWire (as is the case in military applications), the new threat will still exist within the system because it is inherent in how automotive systems are designed.
 These kinds of threats will become known as **architectural threats** whereas the former will be named **implementation threats**.
+Architectural threats also inherently focus more on the overall picture where the component is situated in, this includes its broader OTA infrastructure and V2X and other connectivity.
 
 ## References
 

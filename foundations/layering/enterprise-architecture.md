@@ -4,15 +4,15 @@ The discipline of enterpreise architecture has long seperated business, logical,
 
 One of the most popular frameworks for layering Enterprise Architecture systems is the Zachman framework.
 
-![The Zachman framework [3]](zachman.jpg)
+![The Zachman framework [1]](zachman.jpg)
 
 Of most interest for threat modeling is the leftmost column which seperates the activities (topmost row) into separate layers.
 Starting from high abstraction level and decomposing into more concrete IT components as the table is descended.
 While the Zachman framework itself is more of a theoretical foundation (and won't be futher explored in this course), it did become part of another more practical framework centered on security architecture: SABSA.
 
-![The SABSA framework [4]](sabsa.jpg)
+![The SABSA framework [2]](sabsa.jpg)
 
-SABSA (Sherwood Applied Business Security Architecture)[5] uses similar layers as Zachman but redefines them in a security context.
+SABSA (Sherwood Applied Business Security Architecture)[3] uses similar layers as Zachman but redefines them in a security context.
 SABSA also includes different models and processes spanning the layers as well as a service management view.
 One could view threat modeling as a continuous modeling process in the service management view which models threats on the other layers.
 
@@ -42,8 +42,8 @@ Now it is time to explore threat modeling as a methodology.
 
 ## References
 
-3: [Zachman Framework](https://www.zachman.com/)
+1: [Zachman Framework](https://www.zachman.com/)
 
-4: [Zachman Framework Image](https://www.researchgate.net/figure/Zachman-Framework-for-Enterprise-Architecture-the-enterprise-For-example-the-answers_fig3_267300493)
+2: [Zachman Framework Image](https://www.researchgate.net/figure/Zachman-Framework-for-Enterprise-Architecture-the-enterprise-For-example-the-answers_fig3_267300493)
 
-5: [SABSA](https://sabsa.org/sabsa-executive-summary/)
+3: [SABSA](https://sabsa.org/sabsa-executive-summary/)
