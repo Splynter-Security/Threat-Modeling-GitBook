@@ -3,7 +3,7 @@
 
 Cars are some of the most widely used examples in demonstrating the necessity of cyber security and it's clear to see why.
 Consisting of a large attack surface which includes millions lines of code, complex networking of components, and potentially devastating real life consequences if things go wrong, cyber security (and threat modeling) is crucial in the automotive sector.
-It is expected that the connected cars sector will double in the next 5 years [1](#references), nearly every new car rolling off the factory line has at least some kinds of smart sensors and functionality embedded within it.
+It is expected that the connected cars sector will double in the next 5 years [[1]](#references), nearly every new car rolling off the factory line has at least some kinds of smart sensors and functionality embedded within it.
 Putting on a threat modeling lens and delving into this example will show what is meant by different kinds of threat modeling.
 
 
