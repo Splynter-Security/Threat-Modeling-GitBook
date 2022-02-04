@@ -35,10 +35,10 @@ In brief, the workflow of using the CAPEC threat catalog to perform is as follow
 
 ## References
 
-1: [MITRE](mitre.org)
+1: [MITRE](https://mitre.org)
 
-2: [Common Weakness Enumeration (CWE)](cwe.mitre.org)
+2: [Common Weakness Enumeration (CWE)](https://cwe.mitre.org)
 
 3: [Common Architectural Weakness Enumeration (CAWE)](https://www.researchgate.net/publication/317929320\_A\_Catalog\_of\_Security\_Architecture\_Weaknesses)
 
-4: [Common Attack Pattern Enumeration and Classification (CAPEC)](capec.mitre.org)
+4: [Common Attack Pattern Enumeration and Classification (CAPEC)](https://capec.mitre.org)
