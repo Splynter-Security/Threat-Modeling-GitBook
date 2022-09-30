@@ -9,7 +9,7 @@ Putting on a threat modeling lens and delving into this example will show what i
 
 ## Decomposition
 Commonly, when vehicles are threat modeled, this is done at a component level.
-Starting on the outside of the vehicle, identifying the potential entry points: bluetooth, Wi-Fi, OBD, etc. and then mapping these onto a diagram creates a Dataflow Diagram (DFD) -- a widespread modeling language for threat modeling components.
+Starting on the outside of the vehicle, identifying the potential entry points: bluetooth, Wi-Fi, OBD, etc. and then mapping these onto a diagram creates a Dataflow Diagram (DFD) -- a widespread modeling language for threat modeling components. Don't get hung up on the details of the examples. Most things are just abbreviations not necessary for the rest of the course.
 
 ![Opengarages example of a "level 0 inputs" DFD [2]](car-example-level_0.jpg)
 
