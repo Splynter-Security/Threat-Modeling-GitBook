@@ -20,7 +20,7 @@ Threat modeling cannot be done without first having an idea of the overall conte
 While this phase is referred to as the "modeling" phase, do not confuse this with "threat modeling" as a whole.
 The goal at this point is to end up with a preliminary "risk & security view" of the system under analysis,
 initially this might not include any security concepts and looks more like a classic architectural model.
-Eventually hoever, this model will be expanded to become a a specialized view able to express security concepts relevant to threat modeling such as threats (events, actors), risks, controls, and more.
+Eventually however, this model will be expanded to become a a specialized view able to express security concepts relevant to threat modeling such as threats (events, actors), risks, controls, and more.
 
 Due to the wide variety of pre-existing modeling languages, there's plenty of choice in notation.
 Oftentimes pre-existing context models can be used as a preliminary 
