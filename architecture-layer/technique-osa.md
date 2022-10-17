@@ -20,7 +20,7 @@ Localization in the OSA context is tied to the origin of the threat being exploi
 
 ### Force Majeur dimension
 
-The force majeur dimension defines what kind of agent the actor is. In a way, in what kind of universe it's understood to exist, the sub-spaces make this a bit more clear. The human agent is as one would expect any kind of human actor such as users, attackers, APTs, etc. A technological agent creates threats that are tied to physical or chemical processes. OSA uses as an example aging processes. Finally, a force majeur actors are predominately environment-like such as tropical storms, earthquakes, water, etc.
+The force majeur dimension defines what kind of agent the actor is. In a way, in what kind of universe it's understood to exist, the sub-spaces make this a bit more clear. The human agent is as one would expect any kind of human actor such as users, attackers, APTs, etc. A technological agent creates threats that are tied to physical or chemical processes. OSA uses as an example aging processes. Finally, force majeur actors are predominately environment-like such as tropical storms, earthquakes, water, etc.
 
 ## Shortcomings
 
