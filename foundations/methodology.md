@@ -23,7 +23,7 @@ initially this might not include any security concepts and looks more like a cla
 Eventually however, this model will be expanded to become a specialized view able to express security concepts relevant to threat modeling such as threats (events, actors), risks, controls, and more.
 
 Due to the wide variety of pre-existing modeling languages, there's plenty of choice in notation.
-Oftentimes pre-existing context models can be used as a preliminary 
+Oftentimes pre-existing context models can be used as a preliminary. 
 However there are several standard notations such as Archimate [[3]](#references) or Dataflow Diagrams (DFD) that are particularly interesting for creating these context models.
 They will be explored further in later sections.
 
