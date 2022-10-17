@@ -1,6 +1,6 @@
 ## Zachman and SABSA
 Layering is not a new concept in information systems (IT) design, nor in security architecture.
-The discipline of enterpreise architecture has long seperated business, logical, technological, etc. responsibilities into separate distinct layers with their own properties.
+The discipline of enterprise architecture has long seperated business, logical, technological, etc. responsibilities into separate distinct layers with their own properties.
 
 One of the most popular frameworks for layering Enterprise Architecture systems is the Zachman framework.
 
