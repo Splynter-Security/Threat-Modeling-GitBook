@@ -30,7 +30,7 @@ Do threats need to be elicited on the vehicle as it rolls out off the factory fl
 ## Logical Layering
 In practice, this is where it is useful to start "layering" threat modeling abstractions.
 While the car was explored at a more "component" or "implementation"-centric level in the above example,
-by reducing the amount of technical specification (e.g. types of portocols), expanding the overall context (what else is the system dependent of?), and focusing on abstract applicability (what are threats to the concepts used instead of the implementations thereof) -- a new kind of view or "layer" can be achieved.
+by reducing the amount of technical specification (e.g. types of protocols), expanding the overall context (what else is the system dependent of?), and focusing on abstract applicability (what are threats to the concepts used instead of the implementations thereof) -- a new kind of view or "layer" can be achieved.
 As an example, instead of seeing threats to the CAN bus (the internal networking of a vehicle between e.g. wheels and the dashboard) as specific to the protocol, redefining them into a more general fashion allows for a more hollistic view of the system.
 The above "fuzzing" example threat could be translated to "analyzing the internal network protocol", making the threat more generally applicable and moving it to another layer of abstraction.
 Now, if the internal network would change away from CAN to e.g. FireWire (as is the case in military applications), the new threat will still exist within the system because it is inherent in how automotive systems are designed.
