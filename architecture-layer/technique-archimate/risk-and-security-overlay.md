@@ -25,7 +25,7 @@ _**Note:**_ When we talk about an _attack_ this is a specific type of threat eve
 
 #### Asset at risk
 
-Anything (tangible or intangible) capable of being owned or controlled to produce value can be referred to as an **asset at risk**. In cyber security contexts, this can an data, device, or other component of the environment that supports information-related activities. Mapping assets can be done with _most or a combination of core elements_ in the ArchiMate specification. A specific "asset" profile could be assigned to the elements, this profile could then have attributes important to to the asset such as its value. In the last example, the database server could be an asset at risk.
+Anything (tangible or intangible) capable of being owned or controlled to produce value can be referred to as an **asset at risk**. In cyber security contexts, this can an data, device, or other component of the environment that supports information-related activities. Mapping assets can be done with _most or a combination of core elements_ in the ArchiMate specification. A specific "asset" profile could be assigned to the elements, this profile could then have attributes important to the asset such as its value. In the last example, the database server could be an asset at risk.
 
 #### Vulnerability
 
