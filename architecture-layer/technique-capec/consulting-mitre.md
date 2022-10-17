@@ -23,7 +23,7 @@ It lists the CAPEC title and ID, description, relationships, prerequisites, exec
 There's a lot of information here to go through, but initially the most important section to focus on is actually found at the bottom, under relevant weaknesses, listed by CWE ID.
 What this section actually does is it links the current CAPEC -- a threat, to potential weaknesses -- vulnerabilities.
 Recall from the previous section where this technique was explained at a higher level that there exists a catalogue of architectural weaknesses (CAWE).
-Unfortunately, MITRE does not provide its own catalog of of architectural threats, the threats found through CAPEC are cross-level and include implementation threats that are not relevant for the architectural level.
+Unfortunately, MITRE does not provide its own catalog of architectural threats, the threats found through CAPEC are cross-level and include implementation threats that are not relevant for the architectural level.
 However, because MITRE does have an architectural view at the weakness level (CAWE), this weakness catalog can be used to cross-reference the threat catalog to determine whether or not a threat is an architectural threat.
 Simply, a threat is an architectural threat if it has relevant architectural weaknesses.
 So after identifying a CAPEC, inspect the listed CWEs to determine whether any are architectural weaknesses.
